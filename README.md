@@ -22,7 +22,7 @@ AstraClean-RAG combines large language models with dual-source retrieval to make
 ![System Architecture](system_image/dataclenaing.png)  
 *Dual-source retrieval and feedback workflow.*
 
-![Demo Interface](system_image/demo.png)  
+![Demo Interface](system_image/Demo.png)  
 *Interactive web demo for uploading data, cleaning, and validating results.*
 
 
