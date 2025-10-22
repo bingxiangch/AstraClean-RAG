@@ -1,0 +1,3 @@
+{"id": "1", "table": "hospital", "column": "State", "domain_rule": "State codes must be two uppercase letters."}
+{"id": "2", "table": "hospital", "column": "City", "domain_rule": "City names should use title case and follow canonical spellings."}
+{"id": "3", "table": "hospital", "column": "PhoneNumber", "domain_rule": "Phone numbers must follow the format XXX-XXX-XXXX using only digits."}

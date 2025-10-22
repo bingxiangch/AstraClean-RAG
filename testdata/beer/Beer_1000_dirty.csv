@@ -1,0 +1,1001 @@
+beer_name,style,ounces,abv,ibu,brewery_id,brewery_name,city,state
+Pub Beer,American Pale Lager,355 ml,0.05,N/A,408,10 Barrel Brewing Company,Bend,OR
+Devil's Cup,American Pale Ale (APA),12.0 oz.,0.066,N/A,177,18th Street Brewery,Gary,IN
+Rise of the Phoenix,American IPA,12.0 ounce,0.071,N/A,177,18th Street Brewery,Gary,IN
+Sinister,American Double / Imperial IPA,12.0 oz,0.09%,N/A,177,18th Street Brewery,Gary,IN
+Sex and Candy,American IPA,0.355 L,0.075,N/A,177,18th Street Brewery,Gary,IN
+Black Exodus,Oatmeal Stout,about 12 oz,0.077,N/A,177,18th Street Brewery,Gary,IN
+Lake Street Express,American Pale Ale (APA),12.0 oz.,0.05%,N/A,177,18th Street Brewery,Gary,IN
+Foreman,American Porter,12.0 ounce,0.065,N/A,177,18th Street Brewery,Gary,IN
+Jade,American Pale Ale (APA),roughly 355 ml,0.055,N/A,177,18th Street Brewery,Gary,IN
+Cone Crusher,American Double / Imperial IPA,12.0 ounce,0.086,N/A,177,18th Street Brewery,Gary,IN
+Sophomoric Saison,Saison / Farmhouse Ale,12.0 oz.,0.072,N/A,177,18th Street Brewery,Gary,IN
+Regional Ring Of Fire,Saison / Farmhouse Ale,500 ml,0.073,N/A,177,18th Street Brewery,Gary,IN
+Garce Selé,Saison / Farmhouse Ale,355 ml,0.07%,N/A,177,18th Street Brewery,Gary,IN
+Troll Destroyer,Belgian IPA,12.0 oz.,0.085,N/A,177,18th Street Brewery,Gary,IN
+Bitter Bitch,American Pale Ale (APA),12.0 ounce,0.06%,60,177,18th Street Brewery,Gary,IN
+Ginja Ninja,Cider,400ml,0.06,N/A,154,2 Towns Ciderhouse,Corvallis,OR
+Cherried Away,Cider,12.0 oz.,0.06,N/A,154,2 Towns Ciderhouse,Corvallis,OR
+Rhubarbarian,Cider,12.0 oz. Alumi-Tek,0.06,N/A,154,2 Towns Ciderhouse,Corvallis,OR
+BrightCider,Cider,near 16 ounce,0.06,N/A,154,2 Towns Ciderhouse,Corvallis,OR
+He Said Baltic-Style Porter,Baltic Porter,355ml,0.082,N/A,368,21st Amendment Brewery,San Francisco,CA
+He Said Belgian-Style Tripel,Tripel,400ml,0.082,N/A,368,21st Amendment Brewery,San Francisco CA,
+Lower De Boom,American Barleywine,12 oz can,0.099,92,368,21st Amendment Brewery,San Francisco,CA
+Fireside Chat,Winter Warmer,355 ml,0.079,45,368,21st Amendment Brewery,San Francisco,CA
+Marooned On Hog Island,American Stout,12 oz.,0.079,N/A,368,21st Amendment Brewery,San Francisco,CA
+Bitter American,American Pale Ale (APA),12oz bottle,0.044,42,368,21st Amendment Brewery,San Francisco,CA
+Hell or High Watermelon Wheat (2009),Fruit / Vegetable Beer,12 oz.,0.049,17,368,21st Amendment Brewery,San Francisco,CA
+Hell or High Watermelon Wheat (2009),Fruit / Vegetable Beer,12 oz can,0.05%,17,368,21st Amendment Brewery,San Francisco,CA
+21st Amendment Watermelon Wheat Beer (2006),Fruit / Vegetable Beer,12 oz,0.049,17,368,21st Amendment Brewery,San Francisco,CA
+21st Amendment IPA (2006),American IPA,355ml,0.07,70,368,21st Amendment Brewery,San Francisco,CA
+Brew Free! or Die IPA (2008),American IPA,0.355L,0.07%,70,368,21st Amendment Brewery,San Francisco,CA
+Brew Free! or Die IPA (2009),American IPA,12 ounce,0.07%,70,368,21st Amendment Brewery,San Francisco,CA
+Special Edition: Allies Win The War!,English Strong Ale,12 oz,0.085,52,368,21st Amendment Brewery,San Francisco,CA
+Hop Crisis,American Double / Imperial IPA,12oz bottle,0.097,94,368,21st Amendment Brewery,San Francisco,CA
+Bitter American (2011),American Pale Ale (APA),355ml,0.044,42,368,21st Amendment Brewery,San Francisco,CA
+Fireside Chat (2010),Winter Warmer,twelve ounce,0.08%,45,368,21st Amendment Brewery,San Francisco,CA
+Back in Black,American Black Ale,twelve ounce,0.07%,65,368,21st Amendment Brewery,San Francisco,CA
+Monk's Blood,Belgian Dark Ale,0.355L,0.083,35,368,21st Amendment Brewery,San Francisco,CA
+Brew Free! or Die IPA,American IPA,twelve ounce,0.07,65,368,21st Amendment Brewery,San Francisco,CA
+Hell or High Watermelon Wheat,Fruit / Vegetable Beer,355 ml,0.049,17,368,21st Amendment Brewery,San Francisco,CA
+Bimini Twist,American IPA,355ml,0.07,82,67,3 Daughters Brewing,St Petersburg,FL
+Beach Blonde,American Blonde Ale,12oz bottle,0.05,N/A,67,3 Daughters Brewing,St Petersburg,FL
+Rod Bender Red,American Amber / Red Ale,12 oz.,0.059,N/A,67,3 Daughters Brewing,St Petersburg,FL
+Passion Fruit Prussia,Berliner Weissbier,12oz,0.035,11,60,4 Hands Brewing Company,Saint Louis,MO
+Send Help,American Blonde Ale,12oz,0.05%,18,60,4 Hands Brewing Company,Saint Louis,MO
+Cast Iron Oatmeal Brown,American Brown Ale,twelve ounce,0.06%,N/A,60,4 Hands Brewing Company,Saint Louis,MO
+Reprise Centennial Red,American Amber / Red Ale,0.355L,0.06,N/A,60,4 Hands Brewing Company,Saint Louis,MO
+Alter Ego,American Black Ale,12 oz can,0.06%,N/A,60,4 Hands Brewing Company,Saint Louis,MO
+Divided Sky,American IPA,0.355 L,0.065,N/A,60,4 Hands Brewing Company,Saint Louis MO,
+Resurrected,American IPA,355 ml,0.065,N/A,60,4 Hands Brewing Company,Saint Louis,MO
+Contact High,American Pale Wheat Ale,0.355 L,0.05,28,60,4 Hands Brewing Company,Saint Louis,MO
+Galaxyfest,American IPA,12 oz can,0.065,N/A,27,450 North Brewing Company,Columbus,IN
+Citrafest,American IPA,0.355L,0.05,45,27,450 North Brewing Company,Columbus,IN
+Barn Yeti,Belgian Strong Dark Ale,12 oz.,0.09,N/A,27,450 North Brewing Company,Columbus,IN
+Scarecrow,American IPA,twelve ounce,0.069,65,27,450 North Brewing Company,Columbus,IN
+Ironman,English Strong Ale,12 oz,0.09%,50,27,450 North Brewing Company,Columbus,IN
+Honey Kolsch,Kölsch,twelve ounce,0.05%,15,27,450 North Brewing Company,Columbus,IN
+Copperhead Amber,Belgian Dark Ale,355ml,0.05%,18,27,450 North Brewing Company,Columbus,IN
+Rude Parrot IPA,American IPA,355 ml,0.059,75,481,7 Seas Brewing Company,Gig Harbor,WA
+British Pale Ale (2010),English Pale Ale,12oz bottle,0.054,30,481,7 Seas Brewing Company,Gig Harbor,WA
+British Pale Ale,English Pale Ale,355ml,0.054,30,481,7 Seas Brewing Company,Gig Harbor,WA
+Ballz Deep Double IPA,American Double / Imperial IPA,12 oz.,0.084,82,481,7 Seas Brewing Company,Gig Harbor,WA
+Wolfman's Berliner,Berliner Weissbier,12oz bottle,0.038,N/A,373,7venth Sun,Dunedin,FL
+Colorado Native,American Amber / Red Lager,0.355 L,0.055,26,462,AC Golden Brewing Company,Golden,CO
+Colorado Native (2011),American Amber / Red Lager,0.355L,0.055,26,462,AC Golden Brewing Company,Golden,CO
+Jockamo IPA,American IPA,12 oz can,0.065,52,533,Abita Brewing Company,Abita Springs,LA
+Purple Haze,Fruit / Vegetable Beer,355 ml,0.042,13,533,Abita Brewing Company,Abita Springs,LA
+Abita Amber,American Amber / Red Lager,0.5L,0.045,17,533,Abita Brewing Company,Abita Springs,LA
+Citra Ass Down,American IPA,12 ounce,0.082,68,62,Against The Grain Brewery,Louisville,KY
+The Brown Note,American Brown Ale,twelve ounce,0.05,20,62,Against The Grain Brewery,Louisville,KY
+Citra Ass Down,American Double / Imperial IPA,12 oz can,0.08,68,1,Against the Grain Brewery,Louisville,KY
+London Balling,English Barleywine,twelve ounce,0.13%,80,1,Against the Grain Brewery,Louisville,KY
+35 K,Milk / Sweet Stout,12 oz,0.077,25,1,Against the Grain Brewery,Louisville,KY
+A Beer,American Pale Ale (APA),12 oz,0.042,42,1,Against the Grain Brewery,Louisville,KY
+Rules are Rules,German Pilsener,12 ounce,0.05,25,1,Against the Grain Brewery,Louisville,KY
+Flesh Gourd'n,Pumpkin Ale,12oz bottle,0.066,21,1,Against the Grain Brewery,Louisville,KY
+Sho'nuff,Belgian Pale Ale,0.355L,0.04,13,1,Against the Grain Brewery,Louisville,KY
+Bloody Show,American Pilsner,12 oz.,0.055,17,1,Against the Grain Brewery,Louisville,KY
+Rico Sauvin,American Double / Imperial IPA,12 ounce,0.076,68,1,Against the Grain Brewery,Louisville,KY
+Coq de la Marche,Saison / Farmhouse Ale,12oz bottle,0.05%,38,1,Against the Grain Brewery,Louisville,KY
+Kamen Knuddeln,American Wild Ale,12 oz,0.07%,N/A,1,Against the Grain Brewery,Louisville,KY
+Pile of Face,American IPA,355ml,0.06,65,1,Against the Grain Brewery,Louisville,KY
+The Brown Note,English Brown Ale,12oz bottle,0.05,20,1,Against the Grain Brewery,Louisville,KY
+Maylani's Coconut Stout,American Stout,twelve ounce,0.053,35,367,Airways Brewing Company,Kent,WA
+Oatmeal PSA,American Pale Ale (APA),355 ml,0.05,35,367,Airways Brewing Company,Kent,WA
+Pre Flight Pilsner,American Pilsner,12oz bottle,0.052,33,367,Airways Brewing Company,Kent,WA
+P-Town Pilsner,American Pilsner,355ml,0.04,20,117,Alameda Brewing,Portland,OR
+Klickitat Pale Ale,American Pale Ale (APA),twelve ounce,0.053,36,117,Alameda Brewing,Portland,OR
+Yellow Wolf Imperial IPA,American Double / Imperial IPA,500ml,0.082,103,117,Alameda Brewing,Portland,OR
+Freeride APA,American Pale Ale (APA),12 oz,0.053,40,270,Alaskan Brewing Company,Juneau,AK
+Alaskan Amber,Altbier,0.355L,0.053,18,270,Alaskan Brewing Company,Juneau,AK
+Hopalicious,American Pale Ale (APA),355ml,0.057,N/A,73,Ale Asylum,Madison WI,
+Kentucky Kölsch,Kölsch,12 oz can,0.043,N/A,388,Alltech's Lexington Brewing Company,Lexington,KY
+Kentucky IPA,American IPA,355 ml,0.065,N/A,388,Alltech's Lexington Brewing Company,Lexington,KY
+Dusty Trail Pale Ale,American Pale Ale (APA),355 ml,0.054,N/A,401,Amnesia Brewing Company,Washougal,WA
+Damnesia,American IPA,12 oz,0.062,N/A,401,Amnesia Brewing Company,Washougal,WA
+Desolation IPA,American IPA,12 oz can,0.062,43,401,Amnesia Brewing Company,Washougal,WA
+Liberty Ale,American IPA,twelve ounce,0.06%,N/A,35,Anchor Brewing Company,San Francisco,CA
+IPA,American IPA,0.355 L,0.07%,N/A,35,Anchor Brewing Company,San Francisco,CA
+Summer Wheat,American Pale Wheat Ale,12 ounce,0.05%,N/A,35,Anchor Brewing Company,San Francisco,CA
+California Lager,American Amber / Red Lager,12 oz,0.049,N/A,35,Anchor Brewing Company,San Francisco,CA
+Brotherhood Steam,California Common / Steam Beer,355 ml,0.06%,N/A,35,Anchor Brewing Company,San Francisco,CA
+Blood Orange Gose,Gose,12 ounce,0.042,N/A,171,Anderson Valley Brewing Company,Boonville,CA
+Keebarlin' Pale Ale,American Pale Ale (APA),0.355L,0.042,N/A,171,Anderson Valley Brewing Company,Boonville,CA
+"the Kimmie, the Yink and the Holy Gose",Gose,355ml,0.05%,N/A,171,Anderson Valley Brewing Company,Boonville,CA
+Fall Hornin',Pumpkin Ale,0.355 L,0.06,N/A,171,Anderson Valley Brewing Company,Boonville,CA
+Barney Flats Oatmeal Stout,Oatmeal Stout,12oz bottle,0.057,13,171,Anderson Valley Brewing Company,Boonville,CA
+Summer Solstice,Cream Ale,0.355L,0.056,4,171,Anderson Valley Brewing Company,Boonville,CA
+Hop Ottin' IPA,American IPA,500ml,0.07,80,171,Anderson Valley Brewing Company,Boonville,CA
+Boont Amber Ale,American Amber / Red Ale,0.355 L,0.06%,15,171,Anderson Valley Brewing Company,Boonville,CA
+Barney Flats Oatmeal Stout,Oatmeal Stout,355 ml,0.057,13,171,Anderson Valley Brewing Company,Boonville,CA
+El Steinber Dark Lager,Vienna Lager,0.355L,0.055,25,171,Anderson Valley Brewing Company,Boonville,CA
+Boont Amber Ale (2010),American Amber / Red Ale,12 ounce,0.06%,15,171,Anderson Valley Brewing Company,Boonville,CA
+Summer Solstice Cerveza Crema (2009),Cream Ale,0.355 L,0.056,4,171,Anderson Valley Brewing Company,Boonville,CA
+Barney Flats Oatmeal Stout (2012),Oatmeal Stout,12 oz can,0.06%,13,171,Anderson Valley Brewing Company,Boonville,CA
+Winter Solstice,Winter Warmer,12 ounce,0.07%,6,171,Anderson Valley Brewing Company,Boonville,CA
+Hop Ottin' IPA (2011),American IPA,0.5 L,0.07,80,171,Anderson Valley Brewing Company,Boonville,CA
+Boont Amber Ale (2011),American Amber / Red Ale,12 oz.,0.058,15,171,Anderson Valley Brewing Company,Boonville,CA
+Summer Solstice (2011),Cream Ale,355 ml,0.056,4,171,Anderson Valley Brewing Company,Boonville,CA
+Poleeko Gold Pale Ale (2009),American Pale Ale (APA),500ml,0.055,28,171,Anderson Valley Brewing Company,Boonville,CA
+Charlie's Rye IPA,American IPA,12 ounce,0.06,N/A,146,Angry Minnow,Hayward,WI
+River Pig Pale Ale,American Pale Ale (APA),0.355 L,0.05%,N/A,542,Angry Minnow Brewing Company,Hayward,WI
+Oaky's Oatmeal Stout,Oatmeal Stout,12 ounce,0.05%,N/A,542,Angry Minnow Brewing Company,Hayward WI,
+Angry Orchard Apple Ginger,Cider,355 ml,0.05,N/A,434,Angry Orchard Cider Company,Cincinnati,OH
+Angry Orchard Crisp Apple,Cider,twelve ounce,0.05%,N/A,434,Angry Orchard Cider Company,Cincinnati,OH
+Angry Orchard Crisp Apple,Cider,12 ounce,0.05,N/A,434,Angry Orchard Cider Company,Cincinnati,OH
+Golden One,Belgian Pale Ale,355ml,0.068,N/A,193,Anthem Brewing Company,Oklahoma City,OK
+Arjuna,Witbier,355 ml,0.06,N/A,193,Anthem Brewing Company,Oklahoma City,OK
+Uroboros,American Stout,12 oz can,0.09%,N/A,193,Anthem Brewing Company,Oklahoma City,OK
+Long Leaf,American IPA,355 ml,0.071,75,69,Appalachian Mountain Brewery,Boone,NC
+Honey Badger Blonde,American Blonde Ale,12 ounce,0.047,19,69,Appalachian Mountain Brewery,Boone,NC
+Porter (a/k/a Black Gold Porter),American Porter,12 oz,0.06,23,69,Appalachian Mountain Brewery,Boone,NC
+Sky High Rye,American Pale Ale (APA),12oz,0.06%,55,541,Arcadia Brewing Company,Battle Creek,MI
+Whitsun,American Pale Wheat Ale,0.355L,0.062,17,541,Arcadia Brewing Company,Battle Creek,MI
+On-On Ale (2008),American Pale Ale (APA),0.355L,0.052,N/A,513,Arctic Craft Brewery,Colorado Springs,CO
+Quakertown Stout,American Double / Imperial Stout,400 ml,0.092,50,426,Armadillo Ale Works,Denton TX,
+Greenbelt Farmhouse Ale,Saison / Farmhouse Ale,12 oz.,0.05%,20,426,Armadillo Ale Works,Denton,TX
+Mo's Gose,Gose,355ml,0.052,10,461,Armstrong Brewing Company,South San Francisco,CA
+Green Bullet Organic India Pale Ale,American IPA,0.355 L,0.07,45,429,Asher Brewing Company,Boulder,CO
+Rocket Girl,Kölsch,12 oz can,0.032,27,528,Asheville Brewing Company,Asheville,NC
+Ninja Porter,American Porter,355ml,0.053,26,528,Asheville Brewing Company,Asheville NC,
+Shiva IPA,American IPA,twelve ounce,0.06,69,528,Asheville Brewing Company,Asheville,NC
+Aslan Kölsch,Kölsch,12oz,0.048,N/A,353,Aslan Brewing Company,Bellingham,WA
+Aslan IPA,American IPA,355 ml,0.077,N/A,353,Aslan Brewing Company,Bellingham,WA
+Aslan Amber,American Amber / Red Ale,12oz bottle,0.077,N/A,353,Aslan Brewing Company,Bellingham,WA
+This Season's Blonde,American Blonde Ale,12 oz,0.056,27,523,Aspen Brewing Company,Aspen,CO
+Independence Pass Ale,American IPA,500ml,0.07%,67,523,Aspen Brewing Company,Aspen,CO
+Trolley Stop Stout,American Stout,12 oz can,0.057,40,374,Astoria Brewing Company,Astoria,OR
+Bitter Bitch Imperial IPA,American Double / Imperial IPA,0.355L,0.08%,138,374,Astoria Brewing Company,Astoria,OR
+Poop Deck Porter,American Porter,0.355L,0.062,35,374,Astoria Brewing Company,Astoria,OR
+Old Red Beard Amber Ale,American Amber / Red Ale,12 oz can,0.06,35,374,Astoria Brewing Company,Astoria,OR
+Hop A-Peel,American Double / Imperial IPA,400 ml,0.075,115,72,Atwater Brewery,Detroit,MI
+Vanilla Java Porter,American Porter,355 ml,0.06%,12,72,Atwater Brewery,Detroit,MI
+Michelada,Fruit / Vegetable Beer,12 ounce,0.052,N/A,72,Atwater Brewery,Detroit,MI
+Dirty Blonde Ale,American Blonde Ale,355ml,0.045,8,72,Atwater Brewery,Detroit,MI
+Grand Circus IPA,American IPA,355 ml,0.05%,62,72,Atwater Brewery,Detroit,MI
+Atwater's Lager,Munich Helles Lager,12 oz can,0.05,12,72,Atwater Brewery,Detroit MI,
+Heavy Machinery IPA Series #1: Heavy Fist,American Black Ale,330 ml,0.07,N/A,413,Austin Beerworks,Austin,TX
+Fire Eagle IPA,American IPA,twelve ounce,0.06%,N/A,413,Austin Beerworks,Austin,TX
+Peacemaker,American Pale Ale (APA),12 ounce,0.051,N/A,413,Austin Beerworks,Austin,TX
+Pearl-Snap,German Pilsener,355 ml,0.053,N/A,413,Austin Beerworks,Austin,TX
+Black Thunder,Schwarzbier,0.355 L,0.052,N/A,413,Austin Beerworks,Austin,TX
+Raja,American Double / Imperial IPA,twelve ounce,0.08%,N/A,37,Avery Brewing Company,Boulder,CO
+Perzik Saison,Saison / Farmhouse Ale,twelve ounce,0.064,N/A,37,Avery Brewing Company,Boulder,CO
+Avery Joe’s Premium American Pilsner,German Pilsener,12oz,0.047,42,37,Avery Brewing Company,Boulder,CO
+White Rascal,Witbier,0.355L,0.056,10,37,Avery Brewing Company,Boulder,CO
+Avery India Pale Ale,American IPA,12 oz,0.063,69,37,Avery Brewing Company,Boulder,CO
+Ellie’s Brown Ale,American Brown Ale,355ml,0.055,17,37,Avery Brewing Company,Boulder,CO
+Pumpkin Beast,Pumpkin Ale,12oz bottle,0.062,17,360,Aviator Brewing Company,Fuquay-Varina,NC
+OktoberBeast,Märzen / Oktoberfest,12 oz.,0.072,22,360,Aviator Brewing Company,Fuquay-Varina,NC
+Mad Beach,American Pale Wheat Ale,0.355 L,0.05%,23,360,Aviator Brewing Company,Fuquay-Varina,NC
+Hog Wild India Pale Ale,American IPA,12 ounce,0.067,N/A,360,Aviator Brewing Company,Fuquay-Varina,NC
+Devils Tramping Ground Tripel,Tripel,twelve ounce,0.092,5,360,Aviator Brewing Company,Fuquay-Varina,NC
+Hot Rod Red,American Amber / Red Ale,12 oz.,0.061,41,360,Aviator Brewing Company,Fuquay-Varina,NC
+Palate Mallet,American Double / Imperial IPA,12oz,0.086,N/A,235,Back East Brewing Company,Bloomfield,CT
+Back East Porter,American Porter,0.355L,0.06,N/A,235,Back East Brewing Company,Bloomfield,CT
+Back East Golden Ale,American Blonde Ale,0.355L,0.05%,N/A,235,Back East Brewing Company,Bloomfield,CT
+Misty Mountain IPA,American IPA,400ml,0.07,N/A,235,Back East Brewing Company,Bloomfield,CT
+Back East Ale,American Amber / Red Ale,355ml,0.05,N/A,235,Back East Brewing Company,Bloomfield,CT
+Truck Stop Honey Brown Ale,English Brown Ale,12 oz.,0.06%,N/A,286,Back Forty Beer Company,Gadsden,AL
+Naked Pig Pale Ale,American Pale Ale (APA),355ml,0.06%,43,286,Back Forty Beer Company,Gadsden,AL
+Topcutter India Pale Ale,American IPA,0.355 L,0.068,70,483,Bale Breaker Brewing Company,Yakima,WA
+Field 41 Pale Ale,American Pale Ale (APA),355ml,0.04%,38,483,Bale Breaker Brewing Company,Yakima,WA
+Grapefruit Sculpin,American IPA,12 oz.,0.07%,N/A,34,Ballast Point Brewing Company,San Diego,CA
+Even Keel,American IPA,12oz bottle,0.04%,40,34,Ballast Point Brewing Company,San Diego CA,
+Ballast Point Pale Ale,Kölsch,12 oz can,0.05%,23,34,Ballast Point Brewing Company,San Diego,CA
+Big Eye India Pale Ale,American IPA,12 oz.,0.07,75,34,Ballast Point Brewing Company,San Diego,CA
+Longfin Lager,Munich Helles Lager,12 oz.,0.046,N/A,34,Ballast Point Brewing Company,San Diego,CA
+Sculpin IPA,American IPA,355 ml,0.07,70,34,Ballast Point Brewing Company,San Diego,CA
+All Nighter Ale,Extra Special / Strong Bitter (ESB),0.355 L,0.045,N/A,318,Banner Beer Company,Williamsburg,MA
+Banner American Rye,Rye Beer,0.355 L,0.05%,20,318,Banner Beer Company,Williamsburg,MA
+Banner American Ale,American Amber / Red Ale,0.355L,0.035,45,318,Banner Beer Company,Williamsburg,MA
+Thai.p.a,American IPA,355 ml,0.07,46,20,Bare Hands Brewery,Granger,IN
+Barrio Blanco,American IPA,12 ounce,0.06,60,251,Barrio Brewing Company,Tucson,AZ
+Barrio Tucson Blonde,American Blonde Ale,355ml,0.045,N/A,251,Barrio Brewing Company,Tucson,AZ
+Hop in the ‘Pool Helles,American Pilsner,12 oz,0.05%,22,116,Base Camp Brewing Co.,Portland,OR
+Ultra Gnar Gnar IPA,American IPA,12 oz can,0.067,60,116,Base Camp Brewing Co.,Portland,OR
+In-Tents India Pale Lager,American Pale Lager,twelve ounce,0.068,62,116,Base Camp Brewing Co.,Portland,OR
+Lost Meridian Wit,Witbier,16 oz,0.05,20,116,Base Camp Brewing Co.,Portland,OR
+Celestial Meridian Cascadian Dark Lager,Euro Dark Lager,12oz,0.051,45,116,Base Camp Brewing Co.,Portland,OR
+Wagon Party,California Common / Steam Beer,twelve ounce,0.054,55,258,Bauhaus Brew Labs,Minneapolis,MN
+Sky-Five,American IPA,twelve ounce,0.07%,70,258,Bauhaus Brew Labs,Minneapolis,MN
+Stargrazer,Schwarzbier,355ml,0.05,28,258,Bauhaus Brew Labs,Minneapolis,MN
+Wonderstuff,German Pilsener,12 oz can,0.054,48,258,Bauhaus Brew Labs,Minneapolis,MN
+Tarnation California-Style Lager,California Common / Steam Beer,12 ounce,0.053,N/A,292,Baxter Brewing Company,Lewiston,ME
+On the Count of 3 (2015),Hefeweizen,12oz bottle,0.07%,42,292,Baxter Brewing Company,Lewiston,ME
+Summer Swelter,American Pale Wheat Ale,12oz bottle,0.047,N/A,292,Baxter Brewing Company,Lewiston,ME
+Phantom Punch Winter Stout,Foreign / Export Stout,12 oz,0.068,N/A,292,Baxter Brewing Company,Lewiston,ME
+Hayride Autumn Ale,Rye Beer,12 oz.,0.066,N/A,292,Baxter Brewing Company,Lewiston,ME
+Celsius Summer Ale (2012),American Pale Wheat Ale,0.355L,0.047,N/A,292,Baxter Brewing Company,Lewiston,ME
+Amber Road,American Amber / Red Ale,12 oz,0.055,35,292,Baxter Brewing Company,Lewiston,ME
+Pamola Xtra Pale Ale,American Pale Ale (APA),12 oz,0.05%,28,292,Baxter Brewing Company,Lewiston,ME
+Stowaway IPA,American IPA,12 oz,0.069,69,292,Baxter Brewing Company,Lewiston,ME
+Hoptopus Double IPA,American Double / Imperial IPA,twelve ounce,0.088,108,306,Beach Brewing Company,Virginia Beach,VA
+Watermelon Ale,Fruit / Vegetable Beer,16 oz,0.05,10,103,Beer Works Brewery,Lowell,MA
+Fenway American Pale Ale,American Pale Ale (APA),twelve ounce,0.06%,45,103,Beer Works Brewery,Lowell,MA
+Back Bay IPA,American IPA,0.355L,0.07%,85,103,Beer Works Brewery,Lowell,MA
+Bunker Hill Blueberry Ale,Other,12 oz.,0.048,16,103,Beer Works Brewery,Lowell,MA
+Oberon,American Pale Wheat Ale,12oz bottle,0.06%,N/A,76,Bell's Brewery,Kalamazoo,MI
+Smitten,Rye Beer,twelve ounce,0.06%,N/A,76,Bell's Brewery,Kalamazoo,MI
+Winter White,Witbier,12oz,0.05,N/A,76,Bell's Brewery,Kalamazoo,MI
+Oberon,American Pale Wheat Ale,355 ml,0.058,N/A,76,Bell's Brewery,Kalamazoo,MI
+Two Hearted,American IPA,0.355 L,0.07,N/A,76,Bell's Brewery,Kalamazoo,MI
+Best Brown,American Brown Ale,12 oz can,0.058,N/A,76,Bell's Brewery,Kalamazoo,MI
+Moar,English India Pale Ale (IPA),355ml,0.044,44,53,Bent Brewstillery,Roseville,MN
+Uber Lupin Schwarz IPA,American Double / Imperial IPA,12oz,0.083,N/A,53,Bent Brewstillery,Roseville,MN
+Nordic Blonde,American Blonde Ale,12oz bottle,0.06%,27,53,Bent Brewstillery,Roseville,MN
+Cold Press,American Black Ale,330 ml,0.06,N/A,75,Bent Paddle Brewing Company,Duluth,MN
+Harness the Winter,American IPA,500ml,0.072,87,75,Bent Paddle Brewing Company,Duluth,MN
+14° ESB,Extra Special / Strong Bitter (ESB),12 oz,0.056,32,75,Bent Paddle Brewing Company,Duluth,MN
+Bent Hop Golden IPA,American IPA,12oz,0.062,68,75,Bent Paddle Brewing Company,Duluth,MN
+Bent Paddle Black Ale,American Black Ale,12 oz can,0.06%,34,75,Bent Paddle Brewing Company,Duluth MN,
+Venture Pils,German Pilsener,12 oz can,0.05,38,75,Bent Paddle Brewing Company,Duluth,MN
+Lost Sailor IPA,English India Pale Ale (IPA),355 ml,0.055,40,278,Berkshire Brewing Company,South Deerfield,MA
+Steel Rail Extra Pale Ale,American Pale Ale (APA),355ml,0.053,20,278,Berkshire Brewing Company,South Deerfield,MA
+La Frontera Premium IPA,American IPA,355ml,0.08%,N/A,463,Big Bend Brewing Company,Alpine,TX
+Tejas Lager,Czech Pilsener,12oz,0.05%,N/A,463,Big Bend Brewing Company,Alpine,TX
+Number 22 Porter,American Porter,12oz bottle,0.064,N/A,463,Big Bend Brewing Company,Alpine,TX
+Big Bend Hefeweizen,Hefeweizen,12 oz.,0.06%,N/A,463,Big Bend Brewing Company,Alpine,TX
+Terlingua Gold,American Blonde Ale,12 oz.,0.06,N/A,463,Big Bend Brewing Company,Alpine,TX
+Aprè Shred,American Strong Ale,12 oz.,0.081,17,220,Big Choice Brewing,Broomfield,CO
+Hemlock Double IPA,American Double / Imperial IPA,330ml,0.10%,104,220,Big Choice Brewing,Broomfield,CO
+West Portal Colorado Common Summer Ale,California Common / Steam Beer,355ml,0.041,N/A,220,Big Choice Brewing,Broomfield,CO
+Disconnected Red,American Amber / Red Ale,12 oz.,0.067,85,220,Big Choice Brewing,Broomfield,CO
+Big Elm IPA,American IPA,12oz bottle,0.07%,N/A,477,Big Elm Brewing,Sheffield,MA
+Gerry Dog Stout,American Stout,0.355 L,0.065,N/A,477,Big Elm Brewing,Sheffield,MA
+413 Farmhouse Ale,Saison / Farmhouse Ale,12oz bottle,0.06,N/A,477,Big Elm Brewing,Sheffield,MA
+Dark Star,American Stout,twelve ounce,0.08,54,8,Big Lake Brewing,Holland,MI
+Ryecoe,American IPA,twelve ounce,0.062,N/A,8,Big Lake Brewing,Holland,MI
+Blueberry Blonde,Fruit / Vegetable Beer,12 oz.,0.06,N/A,40,Big Muddy Brewing,Murphysboro,IL
+Galaxy IPA,American IPA,0.355L,0.075,60,40,Big Muddy Brewing,Murphysboro,IL
+Big River Pilsner,Czech Pilsener,355 ml,0.05,32,519,Big River Brewing Company,Chattanooga,TN
+House Brand IPA,American IPA,12 oz can,0.06,55,519,Big River Brewing Company,Chattanooga,TN
+Big Sky IPA,American IPA,355ml,0.062,65,336,Big Sky Brewing Company,Missoula,MT
+Scape Goat Pale Ale,English Pale Ale,twelve ounce,0.05%,40,336,Big Sky Brewing Company,Missoula,MT
+Montana Trout Slayer Ale,American Pale Wheat Ale,0.5L,0.05,35,336,Big Sky Brewing Company,Missoula,MT
+Moose Drool Brown Ale,American Brown Ale,twelve ounce,0.051,26,336,Big Sky Brewing Company,Missoula,MT
+Powder Hound Winter Ale,English Strong Ale,12oz bottle,0.072,60,336,Big Sky Brewing Company,Missoula,MT
+Moose Drool Brown Ale (2011),American Brown Ale,12 oz can,0.051,26,336,Big Sky Brewing Company,Missoula,MT
+Montana Trout Slayer Ale (2012),American Pale Wheat Ale,400 ml,0.05,35,336,Big Sky Brewing Company,Missoula,MT
+Big Sky IPA (2012),American IPA,355ml,0.062,65,336,Big Sky Brewing Company,Missoula,MT
+Summer Honey,American Blonde Ale,355ml,0.047,N/A,336,Big Sky Brewing Company,Missoula,MT
+Scape Goat Pale Ale (2010),English Pale Ale,355ml,0.05,40,336,Big Sky Brewing Company,Missoula,MT
+Montana Trout Slayer Ale (2009),American Pale Wheat Ale,12 oz.,0.05,35,336,Big Sky Brewing Company,Missoula,MT
+Moose Drool Brown Ale (2009),American Brown Ale,355 ml,0.05%,26,336,Big Sky Brewing Company,Missoula,MT
+Arcus IPA,American IPA,12 oz,0.069,81,221,Big Storm Brewing Company,Odessa,FL
+Wavemaker,American Amber / Red Ale,0.355L,0.06%,38,221,Big Storm Brewing Company,Odessa,FL
+Jack Pine Savage,American Pale Ale (APA),355 ml,0.053,43,444,Big Wood Brewery,Vadnais Heights,MN
+Forest Fire Imperial Smoked Rye,Rye Beer,0.5L,0.10%,85,444,Big Wood Brewery,Vadnais Heights,MN
+Bad Axe Imperial IPA,American Double / Imperial IPA,12 oz.,0.098,76,444,Big Wood Brewery,Vadnais Heights,MN
+Morning Wood,Oatmeal Stout,500ml,0.055,35,444,Big Wood Brewery,Vadnais Heights,MN
+Bark Bite IPA,American IPA,12oz bottle,0.066,50,444,Big Wood Brewery,Vadnais Heights,MN
+Jalapeno Pale Ale,American Pale Ale (APA),0.355L,0.055,45,70,Birdsong Brewing Company,Charlotte,NC
+Blown Out Brown,American Brown Ale,12oz bottle,0.052,N/A,407,Bitter Root Brewing,Hamilton,MT
+Single Hop Ale,American Pale Ale (APA),12 oz can,0.063,N/A,407,Bitter Root Brewing,Hamilton,MT
+Sawtooth Ale,American Blonde Ale,12oz,0.054,N/A,407,Bitter Root Brewing,Hamilton,MT
+Saucy Intruder,Rye Beer,355 ml,0.072,75,18,Black Acre Brewing Co.,Indianapolis,IN
+Deception,American Blonde Ale,0.355 L,0.05%,16,112,Black Market Brewing Company,Temecula,CA
+Blackmarket Rye IPA,American IPA,0.355 L,0.075,35,112,Black Market Brewing Company,Temecula,CA
+Black Market Hefeweizen,Hefeweizen,twelve ounce,0.05,8,112,Black Market Brewing Company,Temecula,CA
+Aftermath Pale Ale,American Pale Ale (APA),500ml,0.058,44,112,Black Market Brewing Company,Temecula,CA
+American India Red Ale,American Strong Ale,12 oz can,0.071,83,294,Black Shirt Brewing Company,Denver,CO
+American Red Porter,American Porter,355 ml,0.071,45,294,Black Shirt Brewing Company,Denver,CO
+American Red Saison,Saison / Farmhouse Ale,12 ounce,0.078,34,294,Black Shirt Brewing Company,Denver,CO
+Colorado Red Ale,American Amber / Red Ale,12oz,0.066,44,294,Black Shirt Brewing Company,Denver,CO
+Saddle Bronc Brown Ale,American Brown Ale,0.355L,0.05%,16,79,Black Tooth Brewing Company,Sheridan,WY
+Bomber Mountain Amber Ale,American Amber / Red Ale,12 ounce,0.046,20,79,Black Tooth Brewing Company,Sheridan,WY
+Flying Sailor,Rye Beer,12 oz can,0.07%,N/A,95,Blackrocks Brewery,Marquette,MA
+Nordskye,American IPA,12 oz can,0.048,47,12,Blackrocks Brewery,Marquette,MI
+North Third Stout,Foreign / Export Stout,12 ounce,0.06,30,12,Blackrocks Brewery,Marquette,MI
+Honey Lav,American Pale Wheat Ale,12 ounce,0.052,N/A,12,Blackrocks Brewery,Marquette,MI
+Coconut Brown Ale,American Brown Ale,355ml,0.068,N/A,12,Blackrocks Brewery,Marquette,MI
+51K IPA,American IPA,355ml,0.07,51,12,Blackrocks Brewery,Marquette,MI
+Grand Rabbits,Cream Ale,12oz,0.055,N/A,12,Blackrocks Brewery,Marquette,MI
+1800 Big Log Wheat (2012),American Pale Wheat Ale,12oz,0.05%,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+Double Play Pilsner,American Pilsner,twelve ounce,,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+Brewerhood Brown Ale,American Brown Ale,twelve ounce,0.06%,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+Last Call Imperial Amber Ale,American Amber / Red Ale,355ml,0.08,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+Pernicious Double IPA,American Double / Imperial IPA,330 ml,0.096,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+6-4-3 Double Play Pilsner,German Pilsener,12 oz.,0.052,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+N Street Drive-In 50th Anniversary IPA,American Double / Imperial IPA,355 ml,,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+467 Ethan's Stout,American Stout,0.355 L,0.05,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+1335 Wicked Snout,Saison / Farmhouse Ale,12 ounce,0.064,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+543 Skull Creek Fresh Hopped Pale Ale,American Pale Ale (APA),12 oz,0.045,N/A,380,Blue Blood Brewing Company,Lincoln,NE
+1327 Pod's ESB,Extra Special / Strong Bitter (ESB),355ml,0.056,37,380,Blue Blood Brewing Company,Lincoln,NE
+1327 Pod's ESB,Extra Special / Strong Bitter (ESB),400ml,0.06%,37,380,Blue Blood Brewing Company,Lincoln,NE
+1327 Pod's ESB,Extra Special / Strong Bitter (ESB),12 oz.,0.06%,37,380,Blue Blood Brewing Company,Lincoln,NE
+834 Happy As Ale,American Pale Ale (APA),12 ounce,0.046,35,380,Blue Blood Brewing Company,Lincoln,NE
+Yellow Collar,Mead,12oz,0.059,N/A,422,Blue Dog Mead,Eugene,OR
+Green Collar,Mead,400ml,0.06%,N/A,422,Blue Dog Mead,Eugene,OR
+Quarter Mile Double IPA,American Double / Imperial IPA,0.355L,0.08%,80,304,Blue Hills Brewery,Canton MA,
+Full Nelson Pale Ale,American Pale Ale (APA),0.355 L,0.059,60,382,Blue Mountain Brewery,Afton VA,
+Steel Wheels ESB,Extra Special / Strong Bitter (ESB),8 oz,0.065,30,382,Blue Mountain Brewery,Afton,VA
+Blue Mountain Classic Lager,Euro Pale Lager,12 oz.,0.053,22,382,Blue Mountain Brewery,Afton,VA
+Full Nelson Pale Ale (2010),American Pale Ale (APA),12 oz.,0.059,60,382,Blue Mountain Brewery,Afton,VA
+Kölsch 151,Kölsch,355ml,0.049,16,414,Blue Mountain Brewery,Arrington,VA
+Professor Black,American Stout,355ml,,N/A,77,Blue Owl Brewing,Austin,TX
+Little Boss,American Pale Wheat Ale,355ml,,N/A,77,Blue Owl Brewing,Austin,TX
+Van Dayum!,American Amber / Red Ale,0.355L,,N/A,77,Blue Owl Brewing,Austin,TX
+Spirit Animal,American Pale Ale (APA),12 oz,,N/A,77,Blue Owl Brewing,Austin,TX
+Toxic Sludge,American Black Ale,12oz,0.07,N/A,489,Blue Point Brewing Company,Patchogue,NY
+Blue Point White IPA,American White IPA,12 ounce,0.06%,40,489,Blue Point Brewing Company,Patchogue,NY
+Blue Point Summer Ale,American Blonde Ale,0.355 L,0.044,16,489,Blue Point Brewing Company,Patchogue,NY
+Toasted Lager,Vienna Lager,12 oz can,0.055,28,489,Blue Point Brewing Company,Patchogue,NY
+Bohemian Export Lager,Dortmunder / Export Lager,355 ml,0.06,N/A,364,Bohemian Brewery,Midvale,UT
+Altus Bohemes Altbier,Altbier,355ml,0.053,N/A,364,Bohemian Brewery,Midvale,UT
+Cherny Bock,Schwarzbier,0.355 L,0.04,N/A,364,Bohemian Brewery,Midvale,UT
+Czech Pilsner,Czech Pilsener,12oz,0.05%,N/A,364,Bohemian Brewery,Midvale,UT
+Viennese Lager,Vienna Lager,12oz bottle,0.05,N/A,364,Bohemian Brewery,Midvale,UT
+Mad Manatee IPA,American IPA,12oz,0.065,N/A,378,Bold City Brewery,Jacksonville,FL
+Killer Whale Cream Ale,Cream Ale,0.355L,0.055,N/A,378,Bold City Brewery,Jacksonville,FL
+Duke's Cold Nose Brown Ale,American Brown Ale,0.355 L,0.06%,N/A,378,Bold City Brewery,Jacksonville,FL
+Longhop IPA,American IPA,12 oz,0.04%,30,281,Bolero Snort Brewery,Ridgefield Park,NJ
+Lucky Buck,Irish Dry Stout,12 oz can,0.04,34,281,Bolero Snort Brewery,Ridgefield Park,NJ
+Bomb Lager (New Recipe),Munich Helles Lager,12 oz.,0.051,N/A,525,Bomb Beer Company,New York,NY
+Bomb Lager (Old Recipe),Munich Helles Lager,355ml,0.045,27,525,Bomb Beer Company,New York,NY
+Firestarter India Pale Ale,American IPA,12 oz can,0.066,72,107,Bonfire Brewing Company,Eagle,CO
+Kilt Dropper Scotch Ale,Scotch Ale / Wee Heavy,0.355 L,0.075,22,107,Bonfire Brewing Company,Eagle,CO
+Wood Splitter Pilsner,Czech Pilsener,twelve ounce,0.048,30,107,Bonfire Brewing Company,Eagle,CO
+Gyptoberfest,Märzen / Oktoberfest,12 oz,0.056,26,107,Bonfire Brewing Company,Eagle,CO
+Farmer Wirtz India Pale Ale,English India Pale Ale (IPA),12 oz.,0.07,94,107,Bonfire Brewing Company,Eagle,CO
+Slow & Steady Golden Ale,American Blonde Ale,12 ounce,0.047,N/A,107,Bonfire Brewing Company,Eagle,CO
+Pink-I Raspberry IPA,American IPA,12 ounce,0.068,N/A,107,Bonfire Brewing Company,Eagle,CO
+Moe's Original Bar B Que 'Bama Brew Golden Ale,American Blonde Ale,12oz,0.047,N/A,107,Bonfire Brewing Company,Eagle,CO
+Live Local Golden Ale,American Blonde Ale,0.355L,0.047,N/A,107,Bonfire Brewing Company,Eagle,CO
+Screaming Eagle Special Ale ESB,Extra Special / Strong Bitter (ESB),355 ml,0.048,38,107,Bonfire Brewing Company,Eagle,CO
+Dirtbag Dunkel,Munich Dunkel Lager,twelve ounce,0.05%,N/A,107,Bonfire Brewing Company,Eagle,CO
+Kindler Pale Ale,American Pale Ale (APA),12oz bottle,0.053,45,107,Bonfire Brewing Company,Eagle,CO
+Mistress Winter Wheat,Winter Warmer,12 ounce,0.06%,N/A,107,Bonfire Brewing Company,Eagle,CO
+Tent Pole Vanilla Porter,American Porter,0.355 L,0.061,N/A,107,Bonfire Brewing Company,Eagle,CO
+Awry Rye Pale Ale,American Pale Ale (APA),12oz,0.058,N/A,107,Bonfire Brewing Company,Eagle,CO
+Demshitz Brown Ale,American Brown Ale,12 oz.,0.06%,N/A,107,Bonfire Brewing Company,Eagle,CO
+Wood Splitter Pilsner (2012),Czech Pilsener,16 oz,0.048,N/A,107,Bonfire Brewing Company,Eagle,CO
+Brush Creek Blonde,American Blonde Ale,12 oz,0.048,N/A,107,Bonfire Brewing Company,Eagle CO,
+Firestarter India Pale Ale,American IPA,0.355L,0.066,72,107,Bonfire Brewing Company,Eagle,CO
+Noche Dulce,American Porter,twelve ounce,0.071,16,231,Borderlands Brewing Company,Tucson,AZ
+Porch Rocker,Radler,12 oz,0.045,8,300,Boston Beer Company,Boston,MA
+Rebel IPA,American IPA,12oz bottle,0.065,45,300,Boston Beer Company,Boston,MA
+Cold Snap,Witbier,0.355 L,0.055,N/A,300,Boston Beer Company,Boston,MA
+Samuel Adams Winter Lager,Bock,12oz bottle,0.06%,N/A,300,Boston Beer Company,Boston,MA
+Boston Lager,Vienna Lager,355ml,0.049,30,300,Boston Beer Company,Boston,MA
+Boston Lager,Vienna Lager,16 oz,0.049,30,300,Boston Beer Company,Boston,MA
+Samuel Adams Octoberfest,Märzen / Oktoberfest,12oz,0.053,15,300,Boston Beer Company,Boston,MA
+Samuel Adams Summer Ale,American Pale Wheat Ale,8 oz,0.053,7,300,Boston Beer Company,Boston,MA
+Boston Lager,Vienna Lager,355ml,0.049,30,300,Boston Beer Company,Boston,MA
+Hazed & Infused,American Pale Ale (APA),0.355L,0.049,35,417,Boulder Beer Company,Boulder,CO
+Hoopla Pale Ale,American Pale Ale (APA),355 ml,0.057,35,417,Boulder Beer Company,Boulder,CO
+Hazed & Infused (2010),American Pale Ale (APA),12 oz.,0.049,35,417,Boulder Beer Company,Boulder,CO
+Heavy Lifting,American IPA,12 oz.,0.062,80,31,Boulevard Brewing Company,Kansas City,MO
+1492,American Pale Ale (APA),0.355 L,0.065,N/A,167,Boxcar Brewing Company,West Chester,PA
+Mango Ginger,American IPA,12 ounce,0.058,N/A,167,Boxcar Brewing Company,West Chester,PA
+Passenger,English Dark Mild Ale,0.355 L,0.05%,N/A,167,Boxcar Brewing Company,West Chester,PA
+Plum St. Porter,American Porter,0.355L,0.06%,52,219,Bozeman Brewing Company,Bozeman,MT
+Plum St. Porter,American Porter,12oz bottle,0.057,52,219,Bozeman Brewing Company,Bozeman,MT
+Bozone HopZone IPA,American IPA,12 oz.,0.07,80,219,Bozeman Brewing Company,Bozeman,MT
+Bozone Hefe Weizen,Hefeweizen,12 ounce,0.06,25,219,Bozeman Brewing Company,Bozeman,MT
+Bozone Select Amber Ale,American Amber / Red Ale,12 ounce,0.06%,N/A,219,Bozeman Brewing Company,Bozeman,MT
+Evil Owl,American Amber / Red Ale,12 oz,0.052,40,207,Branchline Brewing Company,San Antonio,TX
+Post Time Kölsch,Kölsch,12oz bottle,0.05,N/A,195,Breakside Brewery,Portland,OR
+Agave Wheat,American Pale Wheat Ale,12oz bottle,0.042,9,391,Breckenridge Brewery,Denver,CO
+SummerBright Ale,American Pale Wheat Ale,12 oz,0.045,15,391,Breckenridge Brewery,Denver,CO
+Lucky U IPA,American IPA,12 oz can,0.06%,68,391,Breckenridge Brewery,Denver,CO
+Avalanche Ale,American Amber / Red Ale,12 ounce,0.054,19,391,Breckenridge Brewery,Denver CO,
+"You're My Boy, Blue",Fruit / Vegetable Beer,12oz bottle,0.05,N/A,308,Brew Bus Brewing,Tampa,FL
+Last Stop IPA,American IPA,12 ounce,0.072,60,308,Brew Bus Brewing,Tampa,FL
+Rollin Dirty Red Ale,Irish Red Ale,0.5L,0.05%,21,308,Brew Bus Brewing,Tampa,FL
+Are Wheat There Yet?,American Pale Wheat Ale,12oz,0.055,28,308,Brew Bus Brewing,Tampa,FL
+Insert Hop Reference,American Pale Ale (APA),12oz,0.06%,N/A,19,Brew Link Brewing,Plainfield IN,
+Manitou Amber,American Amber / Red Ale,12 oz.,0.053,N/A,85,Brewery Terra Firma,Traverse City,MI
+Belfort,Saison / Farmhouse Ale,355 ml,0.067,N/A,10,Brewery Vivant,Grand Rapids,MI
+Star Runner,Belgian Pale Ale,0.5L,0.06,N/A,10,Brewery Vivant,Grand Rapids,MI
+Tart Side of the Barrel,American Double / Imperial Stout,12 oz,0.098,N/A,10,Brewery Vivant,Grand Rapids,MI
+Linnaeus Mango IPA,American IPA,355ml,0.06,N/A,10,Brewery Vivant,Grand Rapids,MI
+Beasts A'Burnin',Rauchbier,0.355 L,0.07,N/A,10,Brewery Vivant,Grand Rapids,MI
+Verdun,Bière de Garde,500 ml,0.077,N/A,10,Brewery Vivant,Grand Rapids,MI
+Barrel Aged Triomphe,Belgian IPA,12 oz,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI
+Cherry Doppelbock,Doppelbock,0.355L,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI
+Tropical Saison,Saison / Farmhouse Ale,12 oz,0.07%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Beach Patrol,Witbier,0.355L,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI
+Nuit Serpent,Belgian IPA,12oz bottle,0.05,N/A,10,Brewery Vivant,Grand Rapids,MI
+Paris,Saison / Farmhouse Ale,12 oz can,0.09,N/A,10,Brewery Vivant,Grand Rapids,MI
+The Grand Army,Belgian IPA,12 oz can,0.055,N/A,10,Brewery Vivant,Grand Rapids,MI
+Acidulated Trip,Saison / Farmhouse Ale,330 ml,0.059,N/A,10,Brewery Vivant,Grand Rapids,MI
+Root Stock,Rye Beer,0.355L,0.07%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Mind Games,Dunkelweizen,12 oz can,0.04%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Sous Chef,Belgian Strong Pale Ale,355 ml,0.08%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Dubbelicious,Dubbel,355ml,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI
+Psychopomp,Belgian Dark Ale,12oz bottle,0.06%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Fat Paczki,Belgian Dark Ale,12oz,,N/A,10,Brewery Vivant,Grand Rapids,MI
+Earth-Like Planets,Belgian Pale Ale,500ml,,N/A,10,Brewery Vivant,Grand Rapids,MI
+Ski Patrol,Witbier,12 oz can,0.061,N/A,10,Brewery Vivant,Grand Rapids,MI
+Viking Ice Hole,Oatmeal Stout,12 oz can,0.063,N/A,10,Brewery Vivant,Grand Rapids MI,
+Rye Porter,American Porter,twelve ounce,0.06%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Wizard Burial Ground,Quadrupel (Quad),0.355L,0.099,N/A,10,Brewery Vivant,Grand Rapids,MI
+Smoky Wheat,Rauchbier,355 ml,0.051,N/A,10,Brewery Vivant,Grand Rapids,MI
+BRIPA,Belgian IPA,12 ounce,0.062,N/A,10,Brewery Vivant,Grand Rapids,MI
+Mela,Belgian Dark Ale,12 oz can,0.062,N/A,10,Brewery Vivant,Grand Rapids,MI
+W.I.P.A Snappa,Belgian IPA,0.5 L,0.053,N/A,10,Brewery Vivant,Grand Rapids,MI
+Pepper in the Rye,Rye Beer,12 oz,0.063,N/A,10,Brewery Vivant,Grand Rapids,MI
+Moe Lasses',American Stout,0.355 L,0.064,N/A,10,Brewery Vivant,Grand Rapids,MI
+Pumpkin Tart,Fruit / Vegetable Beer,12oz,0.07%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Undertaker,Belgian Dark Ale,400 ml,0.07%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Undertaker (2014),Belgian Dark Ale,12 ounce,0.067,N/A,10,Brewery Vivant,Grand Rapids,MI
+Coq D'Or,Belgian Pale Ale,12 oz can,0.05,N/A,10,Brewery Vivant,Grand Rapids,MI
+North French,Bière de Garde,355 ml,0.06,N/A,10,Brewery Vivant,Grand Rapids,MI
+Agent a Deux,Belgian Dark Ale,twelve ounce,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI
+Belgian Wit,Witbier,12oz bottle,0.05%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Pothole Stout,American Stout,twelve ounce,0.063,N/A,10,Brewery Vivant,Grand Rapids,MI
+Tree Bucket,Belgian IPA,twelve ounce,0.093,N/A,10,Brewery Vivant,Grand Rapids,MI
+Le Flaneur Ale,American Wild Ale,12 ounce,0.073,N/A,10,Brewery Vivant,Grand Rapids,MI
+Maize & Blueberry,Fruit / Vegetable Beer,0.355 L,0.06%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Trebuchet Double IPA,American Double / Imperial IPA,12 oz,0.093,N/A,10,Brewery Vivant,Grand Rapids,MI
+Contemplation,Bière de Garde,355 ml,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI
+Black Rabbit,American Black Ale,12 oz.,0.05%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Zaison,Saison / Farmhouse Ale,355 ml,0.09%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Vivant Tripel,Tripel,12oz,0.082,N/A,10,Brewery Vivant,Grand Rapids,MI
+Tart Side of the Moon,Belgian Dark Ale,12oz bottle,0.098,N/A,10,Brewery Vivant,Grand Rapids,MI
+Big Red Coq,American Amber / Red Ale,12 oz.,0.06%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Hubris Quadrupel Anniversary Ale,Quadrupel (Quad),0.355L,0.10%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Plow Horse Belgian Style Imperial Stout,American Double / Imperial Stout,12oz bottle,0.095,N/A,10,Brewery Vivant,Grand Rapids,MI
+Escoffier Bretta Ale,American Wild Ale,12oz,0.09%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Contemplation (2012),Bière de Garde,12oz,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI
+Vivant Belgian Style Imperial Stout (2012),Russian Imperial Stout,12 ounce,0.099,N/A,10,Brewery Vivant,Grand Rapids,MI
+Big Red Coq (2012),American Amber / Red Ale,12oz bottle,0.062,N/A,10,Brewery Vivant,Grand Rapids,MI
+Zaison (2012),Saison / Farmhouse Ale,0.355L,0.09,N/A,10,Brewery Vivant,Grand Rapids,MI
+Vivant Tripel (2012),Tripel,12 oz.,0.092,N/A,10,Brewery Vivant,Grand Rapids,MI
+Trebuchet Double IPA (2012),Belgian IPA,12 oz can,0.097,N/A,10,Brewery Vivant,Grand Rapids,MI
+Kludde,Belgian Strong Dark Ale,12 oz.,0.085,N/A,10,Brewery Vivant,Grand Rapids,MI
+Farm Hand,Saison / Farmhouse Ale,355ml,0.06%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Solitude,Belgian Pale Ale,330ml,0.06%,N/A,10,Brewery Vivant,Grand Rapids,MI
+Triomphe,Belgian IPA,12oz bottle,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI
+Tampa Pale Ale,American Pale Ale (APA),12 oz.,,N/A,467,Brindle Dog Brewing Company,Tampa Bay,FL
+Orange Grove Wheat Ale,American Pale Wheat Ale,12 oz can,,N/A,467,Brindle Dog Brewing Company,Tampa Bay FL,
+Broad Brook Ale,American Amber / Red Ale,355ml,0.061,N/A,89,Broad Brook Brewing LLC,East Windsor,CT
+Northern Lights Amber Ale,American Amber / Red Ale,12 oz,0.05,15,493,Broken Tooth Brewing Company,Anchorage,AK
+Polar Pale Ale,American Pale Ale (APA),12oz,0.052,17,493,Broken Tooth Brewing Company,Anchorage,AK
+Chugach Session Ale,Cream Ale,355 ml,0.05%,N/A,493,Broken Tooth Brewing Company,Anchorage,AK
+Fairweather IPA,American IPA,12 ounce,0.061,64,493,Broken Tooth Brewing Company,Anchorage,AK
+East India Pale Ale,English India Pale Ale (IPA),0.355L,0.07%,47,437,Brooklyn Brewery,Brooklyn,NY
+Brooklyn Summer Ale,English Pale Mild Ale,16 oz,0.045,N/A,437,Brooklyn Brewery,Brooklyn,NY
+East India Pale Ale,English India Pale Ale (IPA),twelve ounce,0.068,47,437,Brooklyn Brewery,Brooklyn,NY
+Brooklyn Summer Ale (2011),English Pale Mild Ale,0.355L,0.045,N/A,437,Brooklyn Brewery,Brooklyn,NY
+Brooklyn Lager (16 oz.),American Amber / Red Lager,12 ounce,0.052,N/A,437,Brooklyn Brewery,Brooklyn NY,
+Brooklyn Lager (12 oz.),American Amber / Red Lager,12 ounce,0.05%,N/A,437,Brooklyn Brewery,Brooklyn,NY
+Tour de Nez Belgian IPA (Current),Belgian IPA,12 ounce,0.08%,N/A,530,Buckbean Brewing Company,Reno,NV
+Roler Bock (Current),Maibock / Helles Bock,0.355 L,,N/A,530,Buckbean Brewing Company,Reno,NV
+Black Adder IBA (Current),American Black Ale,12oz,0.073,85,530,Buckbean Brewing Company,Reno,NV
+Very Noddy Lager (Current),Schwarzbier,12 ounce,0.099,N/A,530,Buckbean Brewing Company,Reno NV,
+Tule Duck Red Ale (Current),American Amber / Red Ale,0.355 L,0.06%,42,530,Buckbean Brewing Company,Reno,NV
+Original Orange Blossom Ale (Current),Herbed / Spiced Beer,0.355L,0.06%,35,530,Buckbean Brewing Company,Reno,NV
+Black Noddy Lager (Current),Schwarzbier,12 ounce,0.052,40,530,Buckbean Brewing Company,Reno,NV
+Cleveland Beer Week 2013,Munich Helles Lager,0.355 L,0.05%,N/A,357,Buckeye Brewing,Cleveland,OH
+Painted Turtle,American Pale Ale (APA),twelve ounce,0.05%,N/A,56,BuckleDown Brewing,Lyons,IL
+1836,American Blonde Ale,12 ounce,0.06,40,214,Buffalo Bayou Brewing Company,Houston TX,
+Summer's Wit,Witbier,400 ml,0.06,20,214,Buffalo Bayou Brewing Company,Houston,TX
+More Cowbell,American Double / Imperial IPA,0.355 L,0.09,118,214,Buffalo Bayou Brewing Company,Houston,TX
+Wrath of Pele,American Brown Ale,330ml,0.07%,N/A,24,Burn 'Em Brewing,Michigan City,IN
+Black Beer'd,American Black Ale,12 oz.,0.068,N/A,24,Burn 'Em Brewing,Michigan City,IN
+Mr. Tea,Fruit / Vegetable Beer,0.355 L,0.078,N/A,24,Burn 'Em Brewing,Michigan City,IN
+Pale Alement,American Pale Ale (APA),12 oz,0.055,40,24,Burn 'Em Brewing,Michigan City,IN
+Hopkick Dropkick,American Double / Imperial IPA,8 oz,0.099,115,24,Burn 'Em Brewing,Michigan City,IN
+Kreamed Corn,Cream Ale,12 oz can,0.06,N/A,24,Burn 'Em Brewing,Michigan City,IN
+Coconoats,American Pale Wheat Ale,12 oz,0.065,N/A,24,Burn 'Em Brewing,Michigan City,IN
+Joey Wheat,American Pale Wheat Ale,330 ml,0.07%,16,24,Burn 'Em Brewing,Michigan City,IN
+3:33 Black IPA,American IPA,355ml,0.072,86,24,Burn 'Em Brewing,Michigan City,IN
+MCA,American IPA,12oz,0.068,N/A,24,Burn 'Em Brewing,Michigan City,IN
+Pale Alement,American Pale Ale (APA),355 ml,0.055,40,24,Burn 'Em Brewing,Michigan City,IN
+Couch Select Lager,American Pale Lager,twelve ounce,0.05,14,197,Burnside Brewing Co.,Portland,OR
+Mucho Aloha Hawaiian Pale Ale,American Pale Ale (APA),0.355L,0.056,36,517,Butcher's Brewing,Carlsbad,CA
+Heinnieweisse Weissebier,Hefeweizen,12oz,0.05%,N/A,556,Butternuts Beer and Ale,Garrattsville,NY
+Snapperhead IPA,American IPA,12 oz,0.068,N/A,556,Butternuts Beer and Ale,Garrattsville,NY
+Moo Thunder Stout,Milk / Sweet Stout,12 oz,0.049,N/A,556,Butternuts Beer and Ale,Garrattsville,NY
+Porkslap Pale Ale,American Pale Ale (APA),0.355 L,0.04%,N/A,556,Butternuts Beer and Ale,Garrattsville,NY
+Blackbeard,American Double / Imperial Stout,0.355 L,0.093,N/A,5,COAST Brewing Company,Charleston,SC
+Rye Knot,American Brown Ale,12 oz,0.062,N/A,5,COAST Brewing Company,Charleston,SC
+Dead Arm,American Pale Ale (APA),12 oz,0.06,N/A,5,COAST Brewing Company,Charleston,SC
+32°/50° Kölsch,Kölsch,12 ounce,0.048,N/A,5,COAST Brewing Company,Charleston,SC
+HopArt,American IPA,0.355L,0.077,N/A,5,COAST Brewing Company,Charleston,SC
+Boy King,American Double / Imperial IPA,12 oz.,0.097,N/A,5,COAST Brewing Company,Charleston,SC
+Gran Sport,American Porter,12oz,0.052,N/A,182,COOP Ale Works,Oklahoma City,OK
+Horny Toad Cerveza,American Blonde Ale,twelve ounce,0.053,25,182,COOP Ale Works,Oklahoma City,OK
+Native Amber,American Amber / Red Ale,0.355 L,0.063,35,182,COOP Ale Works,Oklahoma City OK,
+F5 IPA,American IPA,0.355L,0.07%,100,182,COOP Ale Works,Oklahoma City,OK
+Native Amber (2013),American Amber / Red Ale,12 ounce,0.063,35,182,COOP Ale Works,Oklahoma City,OK
+Horny Toad Cerveza (2013),American Blonde Ale,12oz bottle,0.053,25,182,COOP Ale Works,Oklahoma City,OK
+Hopportunity Knocks IPA,American IPA,0.355 L,0.07%,100,155,Caldera Brewing Company,Ashland,OR
+Pilot Rock Porter,American Porter,12 oz can,0.06,N/A,155,Caldera Brewing Company,Ashland,OR
+Caldera Pale Ale,American Pale Ale (APA),12 ounce,0.06%,55,155,Caldera Brewing Company,Ashland,OR
+Lawnmower Lager,American Adjunct Lager,12oz bottle,0.039,16,155,Caldera Brewing Company,Ashland,OR
+Ashland Amber Ale (2009),American Amber / Red Ale,0.355L,0.054,24,155,Caldera Brewing Company,Ashland OR,
+Caldera IPA (2009),American IPA,500ml,0.061,94,155,Caldera Brewing Company,Ashland,OR
+Caldera IPA (2007),American IPA,12 oz can,0.06%,94,155,Caldera Brewing Company,Ashland,OR
+Caldera Pale Ale (2010),American Pale Ale (APA),0.355 L,0.06%,55,155,Caldera Brewing Company,Ashland,OR
+Caldera Pale Ale (2009),American Pale Ale (APA),12oz bottle,0.056,55,155,Caldera Brewing Company,Ashland,OR
+Caldera Pale Ale (2005),American Pale Ale (APA),12oz,0.056,55,155,Caldera Brewing Company,Ashland,OR
+Caldera Pale Ale (2007),American Pale Ale (APA),0.355 L,0.056,55,155,Caldera Brewing Company,Ashland,OR
+Caldera Pale Ale (2011),American Pale Ale (APA),12oz,0.056,55,155,Caldera Brewing Company,Ashland,OR
+Ashland Amber Ale,American Amber / Red Ale,0.355L,0.054,24,155,Caldera Brewing Company,Ashland,OR
+Caldera IPA,American IPA,12 ounce,0.061,94,155,Caldera Brewing Company,Ashland,OR
+Remain in Light,American Pilsner,12 ounce,0.05,N/A,178,Cambridge Brewing Company,Cambridge MA,
+Flower Child (2014),American IPA,twelve ounce,0.07%,N/A,178,Cambridge Brewing Company,Cambridge,MA
+THP White (2006),Witbier,0.355 L,,N/A,497,Cans Bar and Canteen,Charlotte,NC
+THP Amber (2006),American Amber / Red Ale,12 oz can,,N/A,497,Cans Bar and Canteen,Charlotte,NC
+THP Light (2006),American Blonde Ale,12 oz can,,N/A,497,Cans Bar and Canteen,Charlotte,NC
+THP Dark (2006),English Dark Mild Ale,12 oz can,,N/A,497,Cans Bar and Canteen,Charlotte,NC
+Imperial Pumpkin Stout,Pumpkin Ale,355ml,0.099,43,230,Cape Ann Brewing Company,Gloucester,MA
+Dead-Eye DIPA,American Double / Imperial IPA,0.355L,0.09,130,230,Cape Ann Brewing Company,Gloucester,MA
+Fisherman's IPA,American IPA,0.355L,0.06%,64,230,Cape Ann Brewing Company,Gloucester,MA
+Fisherman's Pils,German Pilsener,0.355 L,0.054,35,230,Cape Ann Brewing Company,Gloucester,MA
+Fisherman's Brew,American Amber / Red Ale,12 ounce,0.06%,30,230,Cape Ann Brewing Company,Gloucester MA,
+Cape Cod Red,American Amber / Red Ale,355 ml,0.055,35,267,Cape Cod Beer,Hyannis,MA
+Beach Blonde,American Blonde Ale,12 oz,0.05%,10,267,Cape Cod Beer,Hyannis,MA
+Dark Voyage Black IPA (2013),American Black Ale,355 ml,0.065,80,192,Capital Brewery,Middleton,WI
+Wisconsin Amber,Vienna Lager,12 ounce,0.052,28,192,Capital Brewery,Middleton,WI
+Lake House,Munich Helles Lager,12oz bottle,0.05%,18,192,Capital Brewery,Middleton,WI
+Ghost Ship White IPA,American IPA,355ml,0.056,55,192,Capital Brewery,Middleton,WI
+Lake House,Munich Helles Lager,12 ounce,0.046,18,192,Capital Brewery,Middleton,WI
+Mutiny IPA,American IPA,twelve ounce,0.062,70,192,Capital Brewery,Middleton,WI
+Wisconsin Amber (1998),Vienna Lager,355ml,0.05%,N/A,192,Capital Brewery,Middleton,WI
+Island Wheat,American Pale Wheat Ale,twelve ounce,0.04%,N/A,192,Capital Brewery,Middleton,WI
+Wisconsin Amber (2013),Vienna Lager,400ml,0.052,N/A,192,Capital Brewery,Middleton,WI
+U.S. Pale Ale,American Pale Ale (APA),12 oz can,0.05,N/A,192,Capital Brewery,Middleton,WI
+Supper Club Lager,American Pale Lager,500 ml,,N/A,192,Capital Brewery,Middleton,WI
+Carolina Lighthouse (2007),American Blonde Ale,12 oz,0.04,N/A,504,Carolina Beer & Beverage,Mooresville NC,
+Carolina Blonde (2006),American Blonde Ale,355ml,0.05%,N/A,504,Carolina Beer & Beverage,Mooresville NC,
+Carolina Blonde Light (2005),American Blonde Ale,12 oz,0.035,N/A,504,Carolina Beer & Beverage,Mooresville,NC
+Santa's Secret,Winter Warmer,12 oz.,0.059,22,179,Carolina Brewery,Pittsboro,NC
+Flagship IPA,English India Pale Ale (IPA),12oz bottle,0.06%,N/A,179,Carolina Brewery,Pittsboro,NC
+Sky Blue Golden Ale,Kölsch,355 ml,0.051,N/A,179,Carolina Brewery,Pittsboro,NC
+Epitome,American Black Ale,0.355L,0.099,100,222,Carton Brewing Company,Atlantic Highlands,NJ
+Monkey Chased the Weasel,Berliner Weissbier,12oz bottle,0.039,9,222,Carton Brewing Company,Atlantic Highlands,NJ
+077XX,American Double / Imperial IPA,355 ml,0.078,80,222,Carton Brewing Company,Atlantic Highlands NJ,
+Boat Beer,American IPA,12oz,0.042,35,222,Carton Brewing Company,Atlantic Highlands,NJ
+Granny Smith Hard Apple Cider,Cider,12 ounce,0.069,N/A,404,Cascadia Ciderworks United,Portland,OR
+Dry Hard Apple Cider,Cider,0.355 L,0.069,N/A,404,Cascadia Ciderworks United,Portland,OR
+Farmer Ted's Cream Ale,Cream Ale,12 oz.,0.056,N/A,331,Catawba Brewing Company,Morganton,NC
+Firewater India Pale Ale,American IPA,12 oz,0.052,N/A,331,Catawba Brewing Company,Morganton,NC
+White Zombie Ale,Witbier,twelve ounce,0.047,N/A,331,Catawba Brewing Company,Morganton,NC
+King Winterbolt Winter Ale,Winter Warmer,12oz,0.07,N/A,331,Catawba Brewing Company,Morganton,NC
+White Zombie Ale,Witbier,500ml,0.047,N/A,331,Catawba Brewing Company,Morganton,NC
+Firewater India Pale Ale,American IPA,12 oz,0.052,N/A,331,Catawba Brewing Company,Morganton,NC
+Farmer Ted's Farmhouse Cream Ale,Cream Ale,355 ml,0.056,N/A,331,Catawba Brewing Company,Morganton,NC
+Whitecap Wit,Witbier,twelve ounce,0.048,16,285,Catawba Island Brewing,Port Clinton,OH
+Seiche Scottish Ale,Scottish Ale,12 oz can,0.078,16,285,Catawba Island Brewing,Port Clinton,OH
+Peanut Butter Jelly Time,American Brown Ale,355ml,0.06%,N/A,96,Catawba Valley Brewing Company,Morganton,NC
+King Coconut,American Porter,355ml,0.054,N/A,96,Catawba Valley Brewing Company,Morganton,NC
+Gone A-Rye,American Double / Imperial IPA,12oz bottle,0.085,90,29,Cedar Creek Brewery,Seven Points,TX
+Special Release,,0.5 L,,N/A,29,Cedar Creek Brewery,Seven Points,TX
+Dankosaurus,American IPA,355ml,0.07%,70,29,Cedar Creek Brewery,Seven Points,TX
+Scruffy's Smoked Alt,Smoked Beer,12 oz can,0.05%,35,29,Cedar Creek Brewery,Seven Points,TX
+Elliott's Phoned Home Pale Ale,American Pale Ale (APA),12 oz can,0.05%,36,29,Cedar Creek Brewery,Seven Points,TX
+The Lawn Ranger,Cream Ale,12 ounce,0.05,18,29,Cedar Creek Brewery,Seven Points,TX
+All American Blonde Ale,American Blonde Ale,twelve ounce,0.05%,N/A,452,Centennial Beer Company,Edwards,CO
+All American Red Ale,American Amber / Red Ale,12 oz,0.05,N/A,452,Centennial Beer Company,Edwards CO,
+Main St. Virginia Ale,Altbier,12 oz.,0.05,40,122,Center of the Universe Brewing C...,Ashland,VA
+Chin Music Amber Lager,American Amber / Red Lager,12 oz.,0.045,24,122,Center of the Universe Brewing C...,Ashland,VA
+Main St. Virginia Ale,Altbier,twelve ounce,0.05,40,122,Center of the Universe Brewing C...,Ashland,VA
+Ray Ray’s Pale Ale,American Pale Ale (APA),twelve ounce,0.052,42,122,Center of the Universe Brewing C...,Ashland,VA
+Chai Ale,Herbed / Spiced Beer,12 ounce,0.051,15,350,Central Coast Brewing Company,San Luis Obispo,CA
+Lucky Day IPA,American IPA,12 oz.,0.072,85,350,Central Coast Brewing Company,San Luis Obispo CA,
+Terrace Hill Double IPA,American Double / Imperial IPA,355ml,0.095,99,350,Central Coast Brewing Company,San Luis Obispo,CA
+Catch 23,American Black Ale,12 oz.,0.075,77,350,Central Coast Brewing Company,San Luis Obispo,CA
+Stickin' In My Rye,Rye Beer,500 ml,0.07,N/A,236,Champion Brewing Company,Charlottesville,VA
+Black Me Stout,American Stout,twelve ounce,0.06,45,236,Champion Brewing Company,Charlottesville,VA
+Killer Kolsch,Kölsch,12oz bottle,0.05,22,236,Champion Brewing Company,Charlottesville,VA
+Missile IPA,American IPA,12oz,0.07%,65,236,Champion Brewing Company,Charlottesville VA,
+Enlighten,Kölsch,0.355L,0.045,N/A,250,Chapman's Brewing,Angola,IN
+Ale Cider,Fruit / Vegetable Beer,12 oz,0.065,8,250,Chapman's Brewing,Angola,IN
+Pail Ale,American Pale Ale (APA),12 oz,0.055,30,250,Chapman's Brewing,Angola,IN
+Englishman,English Brown Ale,400ml,0.05%,N/A,250,Chapman's Brewing,Angola IN,
+8 Barrel,American Strong Ale,12 oz.,0.08%,69,226,Chatham Brewing,Chatham,NY
+Oktoberfest,Märzen / Oktoberfest,0.355L,0.055,40,226,Chatham Brewing,Chatham,NY
+IPA #11,American IPA,12 oz,0.06%,58,121,Cheboygan Brewing Company,Cheboygan,MI
+Blood Orange Honey,Fruit / Vegetable Beer,0.355L,0.06%,10,121,Cheboygan Brewing Company,Cheboygan,MI
+Lighthouse Amber,Altbier,12oz bottle,0.052,N/A,121,Cheboygan Brewing Company,Cheboygan,MI
+Bay of Bengal Double IPA (2014),American Double / Imperial IPA,330 ml,0.089,126,99,Christian Moerlein Brewing Company,Cincinnati,OH
+Churchkey Pilsner Style Beer,American Pilsner,0.355 L,0.049,29,526,Churchkey Can Company,Seattle,WA
+First Press,Cider,12oz,0.05,N/A,425,Ciderboys,Stevens Point,WI
+Magic Apple,Cider,12 ounce,0.05%,N/A,425,Ciderboys,Stevens Point,WI
+Cubano Espresso,Bock,12 oz can,0.055,25,141,Cigar City Brewing Company,Tampa,FL
+Operation Homefront,American IPA,0.355 L,0.062,65,141,Cigar City Brewing Company,Tampa,FL
+Wandering Pelican,American Black Ale,12 oz.,0.082,65,141,Cigar City Brewing Company,Tampa,FL
+Sugar Plum,American Brown Ale,0.355 L,0.055,N/A,141,Cigar City Brewing Company,Tampa,FL
+Oktoberfest,Märzen / Oktoberfest,355 ml,0.055,N/A,141,Cigar City Brewing Company,Tampa,FL
+Puppy's Breath Porter,American Porter,12 oz can,0.06,N/A,141,Cigar City Brewing Company,Tampa,FL
+Happening Now,American IPA,12 ounce,0.045,N/A,141,Cigar City Brewing Company,Tampa,FL
+Hopped on the High Seas (Hop #529),American IPA,355ml,0.07,60,141,Cigar City Brewing Company,Tampa,FL
+Hopped on the High Seas (Calypso),American IPA,0.355L,0.07,60,141,Cigar City Brewing Company,Tampa,FL
+Wiregrass Post-Prohibition Ale,American Pale Ale (APA),twelve ounce,0.063,N/A,141,Cigar City Brewing Company,Tampa,FL
+Dry-Hopped On The High Seas Caribbean-Style IPA,American IPA,500ml,0.07%,60,141,Cigar City Brewing Company,Tampa,FL
+Hopped on the High Seas (Citra),American IPA,16 oz,0.07,60,141,Cigar City Brewing Company,Tampa,FL
+Hopped on the High Seas (Ahtanum),American IPA,400ml,0.07,60,141,Cigar City Brewing Company,Tampa,FL
+Gwar Beer,American Pale Ale (APA),355 ml,0.055,N/A,141,Cigar City Brewing Company,Tampa,FL
+Tropical Heatwave,American Pale Wheat Ale,0.355 L,0.052,N/A,141,Cigar City Brewing Company,Tampa,FL
+Humidor Series India Pale Ale,American IPA,12oz,0.075,70,141,Cigar City Brewing Company,Tampa,FL
+Jai Alai IPA Aged on White Oak,American IPA,twelve ounce,0.075,70,141,Cigar City Brewing Company,Tampa,FL
+José Martí American Porter,American Porter,12oz,0.08,65,141,Cigar City Brewing Company,Tampa,FL
+Invasion Pale Ale,American Pale Ale (APA),355 ml,0.05%,N/A,141,Cigar City Brewing Company,Tampa,FL
+Maduro Brown Ale,English Brown Ale,0.355 L,0.055,25,141,Cigar City Brewing Company,Tampa FL,
+Maduro Brown Ale,American Brown Ale,12 oz,0.06%,25,141,Cigar City Brewing Company,Tampa,FL
+Hotter Than Helles Lager,Munich Helles Lager,12oz,0.05%,N/A,141,Cigar City Brewing Company,Tampa,FL
+Tocobaga Red Ale,American Amber / Red Ale,12 ounce,0.07%,75,141,Cigar City Brewing Company,Tampa,FL
+Jai Alai IPA,American IPA,12 oz,0.075,70,141,Cigar City Brewing Company,Tampa,FL
+Florida Cracker Belgian Wit,Witbier,355 ml,0.05%,18,141,Cigar City Brewing Company,Tampa,FL
+Shark Tracker Light lager,Light Lager,twelve ounce,0.048,N/A,145,Cisco Brewers,Nantucket,MA
+Pumple Drumkin,Pumpkin Ale,400 ml,0.06,N/A,145,Cisco Brewers,Nantucket,MA
+Grey Lady,Witbier,355ml,0.045,N/A,145,Cisco Brewers,Nantucket,MA
+Summer of Lager,Munich Helles Lager,12 oz,0.06%,N/A,145,Cisco Brewers,Nantucket,MA
+Indie Pale Ale,American IPA,0.355 L,0.065,N/A,145,Cisco Brewers,Nantucket,MA
+Sankaty Light Lager,Light Lager,12oz bottle,0.04%,N/A,145,Cisco Brewers,Nantucket,MA
+Whale's Tale Pale Ale,English Pale Ale,12 oz,0.06%,N/A,145,Cisco Brewers,Nantucket,MA
+Jacaranada Rye IPA,American IPA,12 ounce,0.067,60,320,Claremont Craft Ales,Claremont,CA
+Cascadian Dark Ale,American Black Ale,12oz bottle,0.06%,75,418,Coalition Brewing Company,Portland,OR
+Wheat the People,American Pale Wheat Ale,twelve ounce,0.044,13,418,Coalition Brewing Company,Portland,OR
+Tybee Island Blonde,American Blonde Ale,0.355L,0.047,17,415,Coastal Empire Beer Company,Savannah,GA
+Savannah Brown Ale,American Brown Ale,0.355L,0.062,55,415,Coastal Empire Beer Company,Savannah,GA
+Rhode Island Blueberry,Kölsch,0.355 L,0.046,11,101,Coastal Extreme Brewing Company,Newport,RI
+Newport Storm IPA,American IPA,500 ml,0.065,75,101,Coastal Extreme Brewing Company,Newport,RI
+Hurricane Amber Ale (2004),American Amber / Red Ale,12 ounce,0.052,24,101,Coastal Extreme Brewing Company,Newport,RI
+Hurricane Amber Ale,American Amber / Red Ale,0.355L,0.052,24,101,Coastal Extreme Brewing Company,Newport,RI
+Big Blue Van,Fruit / Vegetable Beer,12 oz.,0.058,N/A,232,College Street Brewhouse and Pub,Lake Havasu City,AZ
+Des Moines IPA,American IPA,12 ounce,0.068,75,482,Confluence Brewing Company,Des Moines,IA
+Capital Gold Golden Lager,German Pilsener,12 oz,0.048,22,482,Confluence Brewing Company,Des Moines,IA
+Farmer John's Multi-Grain Ale,American Blonde Ale,0.355 L,0.056,21,482,Confluence Brewing Company,Des Moines IA,
+Behemoth,American Pilsner,12 oz can,0.05,N/A,139,Core Brewing & Distilling Company,Springdale,AR
+Arkansas Red,American Amber / Red Ale,500ml,0.052,N/A,139,Core Brewing & Distilling Company,Springdale,AR
+Core Oatmeal Stout,Oatmeal Stout,355ml,0.057,N/A,139,Core Brewing & Distilling Company,Springdale,AR
+Core ESB,Extra Special / Strong Bitter (ESB),355ml,0.061,N/A,139,Core Brewing & Distilling Company,Springdale AR,
+Chester's Beer (2005),American Pale Lager,0.355 L,0.038,N/A,512,Cottrell Brewing,Pawcatuck,CT
+Heiner Brau Kölsch,Kölsch,355ml,0.05%,N/A,553,Covington Brewhouse,Covington,LA
+Trigger Blonde Ale,American Blonde Ale,12 oz can,0.05%,N/A,515,Crabtree Brewing Company,Greeley,CO
+Crabtree Oatmeal Stout,Oatmeal Stout,355 ml,0.08%,29,515,Crabtree Brewing Company,Greeley,CO
+Eclipse Black IPA,American Black Ale,12 oz.,0.077,71,515,Crabtree Brewing Company,Greeley,CO
+Neomexicanus Native,American Pale Ale (APA),12oz bottle,0.06,46,63,Crazy Mountain Brewing Company,Edwards,CO
+Old Soul,Belgian Strong Pale Ale,500ml,0.08%,25,63,Crazy Mountain Brewing Company,Edwards,CO
+Snowcat Coffee Stout,American Stout,twelve ounce,0.059,N/A,63,Crazy Mountain Brewing Company,Edwards,CO
+WinterWonderGrass Festival Ale,American Amber / Red Ale,twelve ounce,,N/A,63,Crazy Mountain Brewing Company,Edwards,CO
+Boohai Red Ale,American Amber / Red Ale,12 ounce,,N/A,63,Crazy Mountain Brewing Company,Edwards,CO
+Lava Lake Wit,Witbier,12 oz can,0.052,15,63,Crazy Mountain Brewing Company,Edwards,CO
+Mountain Livin' Pale Ale,American Pale Ale (APA),12 oz can,0.06,N/A,63,Crazy Mountain Brewing Company,Edwards,CO
+Crazy Mountain Amber Ale,American Amber / Red Ale,0.355L,0.052,25,63,Crazy Mountain Brewing Company,Edwards,CO
+Tropicalia,American IPA,355 ml,0.065,65,247,Creature Comforts,Athens,GA
+Athena,Berliner Weissbier,twelve ounce,0.05%,N/A,247,Creature Comforts,Athens,GA
+Aviator Raspberry Blonde,American Blonde Ale,0.355 L,0.05%,25,169,Crooked Fence Brewing Company,Garden City,ID
+3 Picket Porter,American Porter,12 oz can,0.06%,N/A,169,Crooked Fence Brewing Company,Garden City,ID
+Rusty Nail Pale Ale,American Pale Ale (APA),twelve ounce,0.056,N/A,169,Crooked Fence Brewing Company,Garden City,ID
+Red Water Irish Style Red,American Amber / Red Ale,500 ml,0.065,N/A,212,Crow Peak Brewing Company,Spearfish,SD
+Mjöllnir,Herbed / Spiced Beer,12 ounce,0.066,N/A,212,Crow Peak Brewing Company,Spearfish,SD
+Bear Butte Nut Brown Ale,American Brown Ale,355 ml,0.06%,N/A,212,Crow Peak Brewing Company,Spearfish,SD
+Easy Livin' Summer Ale,American Blonde Ale,12 oz,0.045,N/A,212,Crow Peak Brewing Company,Spearfish,SD
+Canyon Cream Ale,Cream Ale,355ml,0.06%,N/A,212,Crow Peak Brewing Company,Spearfish,SD
+Pile O'Dirt Porter,American Porter,355ml,0.069,N/A,212,Crow Peak Brewing Company,Spearfish,SD
+11th Hour IPA,American IPA,12 oz can,0.06,N/A,212,Crow Peak Brewing Company,Spearfish,SD
+South Ridge Amber Ale,American Amber / Red Ale,12oz bottle,0.06%,31,472,Crystal Springs Brewing Company,Boulder,CO
+Summertime Ale,Kölsch,12 oz.,0.052,23,472,Crystal Springs Brewing Company,Boulder,CO
+Lost River Blonde Ale,American Blonde Ale,355 ml,0.05%,N/A,315,Cutters Brewing Company,Avon,IN
+Monon Wheat,Witbier,400 ml,0.054,N/A,315,Cutters Brewing Company,Avon,IN
+Floyd's Folly,Scottish Ale,12oz,0.08,N/A,315,Cutters Brewing Company,Avon,IN
+Half Court IPA,American IPA,355ml,0.063,N/A,315,Cutters Brewing Company,Avon,IN
+Geary's Pale Ale,English Pale Ale,12oz,0.05%,N/A,323,D.L. Geary Brewing Company,Portland,ME
+Geary's Summer Ale,Kölsch,355 ml,0.06%,N/A,323,D.L. Geary Brewing Company,Portland,ME
+Stone of Arbroath,Scotch Ale / Wee Heavy,twelve ounce,0.08,N/A,227,DC Brau Brewing Company,Washington,DC
+The Tradition,American Blonde Ale,330 ml,0.05%,15,227,DC Brau Brewing Company,Washington,DC
+El Hefe Speaks,Hefeweizen,twelve ounce,0.053,11,227,DC Brau Brewing Company,Washington,DC
+Penn Quarter Porter,American Porter,12oz bottle,0.055,N/A,227,DC Brau Brewing Company,Washington,DC
+On the Wings of Armageddon,American Double / Imperial IPA,330 ml,0.092,115,227,DC Brau Brewing Company,Washington,DC
+The Corruption,American IPA,12 oz,0.07%,80,227,DC Brau Brewing Company,Washington,DC
+The Citizen,Belgian Pale Ale,12 ounce,0.07,N/A,227,DC Brau Brewing Company,Washington,DC
+The Public,American Pale Ale (APA),12oz,0.06,N/A,227,DC Brau Brewing Company,Washington,DC
+Dank IPA,American IPA,12oz bottle,0.07%,N/A,451,Dad & Dude's Breweria,Aurora,CO
+Dank IPA (2012),American IPA,12 ounce,0.07%,N/A,451,Dad & Dude's Breweria,Aurora,CO
+Lift Off IPA,American IPA,12 oz,0.07%,N/A,358,Daredevil Brewing Company,Shelbyville,IN
+BrewFarm Select Golden Lager,American Pale Lager,0.355L,0.055,N/A,554,Dave's Brewfarm,Wilson,WI
+Sprocket Blonde Ale (2006),American Blonde Ale,0.355 L,0.05,N/A,333,David's Ale Works,Diamond Springs,CA
+Sprocket Pale Ale (2006),American Pale Ale (APA),355ml,0.05,N/A,333,David's Ale Works,Diamond Springs,CA
+Dead Armadillo Amber Ale,American Amber / Red Ale,355ml,0.06%,37,330,Dead Armadillo Craft Brewing,Tulsa,OK
+Neato Bandito,Euro Pale Lager,12oz bottle,0.06%,N/A,127,Deep Ellum Brewing Company,Dallas,TX
+Oak Cliff Coffee Ale,American Brown Ale,12 ounce,0.08%,33,127,Deep Ellum Brewing Company,Dallas,TX
+Dream Crusher Double IPA,American Double / Imperial IPA,0.355L,0.085,100,127,Deep Ellum Brewing Company,Dallas,TX
+Deep Ellum Pale Ale,American Pale Ale (APA),12 oz can,0.06%,N/A,127,Deep Ellum Brewing Company,Dallas,TX
+Double Brown Stout,Baltic Porter,12 ounce,0.07,N/A,127,Deep Ellum Brewing Company,Dallas,TX
+Farmhouse Wit,Saison / Farmhouse Ale,355ml,0.048,25,127,Deep Ellum Brewing Company,Dallas,TX
+Rye Pils Session Lager,German Pilsener,355ml,0.046,N/A,127,Deep Ellum Brewing Company,Dallas,TX
+Dallas Blonde,American Blonde Ale,0.355L,0.05%,23,127,Deep Ellum Brewing Company,Dallas,TX
+Deep Ellum IPA,American IPA,0.355L,0.07,70,127,Deep Ellum Brewing Company,Dallas,TX
+Thrasher Session India Pale Ale,American IPA,330 ml,0.045,44,283,Defiance Brewing Company,Hays,KS
+Gutch English Style Mild Ale,English Pale Mild Ale,0.355 L,0.05,16,283,Defiance Brewing Company,Hays,KS
+Chuli Stout,Irish Dry Stout,twelve ounce,0.059,55,453,Denali Brewing Company,Talkeetna,AK
+Mother Ale,American Blonde Ale,12 oz can,0.056,46,453,Denali Brewing Company,Talkeetna,AK
+Twister Creek India Pale Ale,American IPA,0.355L,0.065,71,453,Denali Brewing Company,Talkeetna,AK
+Single Engine Red,Irish Red Ale,12oz,0.058,46,453,Denali Brewing Company,Talkeetna,AK
+Incredible Pedal IPA,American IPA,400ml,0.07,N/A,263,Denver Beer Company,Denver,CO
+Graham Cracker Porter,American Porter,12 oz,0.05%,N/A,263,Denver Beer Company,Denver,CO
+Mirror Pond Pale Ale,American Pale Ale (APA),12 oz.,0.05%,40,454,Deschutes Brewery,Bend,OR
+Weissenheimer,Hefeweizen,12 oz,0.05%,16,57,Destihl Brewery,Bloomington,IL
+Abbey's Single (2015- ),Abbey Single Ale,0.355L,0.05%,22,57,Destihl Brewery,Bloomington,IL
+Vertex IPA,American IPA,400 ml,0.06%,76,57,Destihl Brewery,Bloomington IL,
+Here Gose Nothin',Gose,0.355L,0.05,12,57,Destihl Brewery,Bloomington IL,
+Strawberry Blonde,Fruit / Vegetable Beer,0.355L,0.05%,N/A,57,Destihl Brewery,Bloomington,IL
+Hoperation Overload,American Double / Imperial IPA,12 oz,0.096,85,57,Destihl Brewery,Bloomington,IL
+Abbey's Single Ale (Current),Abbey Single Ale,12oz,0.05%,22,57,Destihl Brewery,Bloomington,IL
+Bravo Four Point,American Pale Ale (APA),12 oz,0.04%,45,237,Devil's Backbone Brewing Company,Lexington,VA
+Striped Bass Pale Ale,American Pale Ale (APA),16 oz,0.052,26,237,Devil's Backbone Brewing Company,Lexington,VA
+Deadicated Amber,American Amber / Red Ale,12 oz can,0.05%,27,491,Devil's Canyon Brewery,Belmont,CA
+Kaleidoscope Collaboration 2012,American Black Ale,12 oz can,,N/A,491,Devil's Canyon Brewery,Belmont CA,
+California Sunshine Rye IPA,American IPA,0.355 L,0.071,85,491,Devil's Canyon Brewery,Belmont,CA
+Full Boar Scotch Ale,Scotch Ale / Wee Heavy,twelve ounce,0.074,12,491,Devil's Canyon Brewery,Belmont,CA
+12 Man Pale Ale,American Pale Ale (APA),12oz bottle,0.05%,N/A,319,Dick's Brewing Company,Centralia,WA
+Filthy Hoppin' IPA,American IPA,0.355 L,0.07%,72,311,Dirty Bucket Brewing Company,Woodinville,WA
+Dock Street Amber Beer (1992),American Amber / Red Ale,0.355L,,N/A,488,Dock Street Brewery,Philadelphia,PA
+Dolores River Hefeweizen,Hefeweizen,0.355 L,,N/A,531,Dolores River Brewery,Dolores,CO
+Dolores River ESB,Extra Special / Strong Bitter (ESB),0.355L,,N/A,531,Dolores River Brewery,Dolores,CO
+Snaggletooth Double Pale Ale,American Double / Imperial IPA,0.355 L,,N/A,531,Dolores River Brewery,Dolores,CO
+Dolores River Pale Ale,American Pale Ale (APA),12oz,,N/A,531,Dolores River Brewery,Dolores,CO
+Dolores River Dry Stout,Irish Dry Stout,355ml,,N/A,531,Dolores River Brewery,Dolores,CO
+Dolores River Mild,English Dark Mild Ale,12 oz,,N/A,531,Dolores River Brewery,Dolores,CO
+Cranberry Blend,Cider,twelve ounce,0.049,N/A,446,Downeast Cider House,Leominster,MA
+Orignal Blend,Cider,12oz bottle,0.051,N/A,446,Downeast Cider House,Leominster,MA
+Hop Abomination,American IPA,twelve ounce,0.07%,100,496,Dry Dock Brewing Company,Aurora,CO
+Apricot Blonde,Fruit / Vegetable Beer,12 oz,0.051,17,496,Dry Dock Brewing Company,Aurora,CO
+Dry Dock Hefeweizen,Hefeweizen,12 oz can,0.043,12,496,Dry Dock Brewing Company,Aurora,CO
+Dry Dock Amber Ale,American Amber / Red Ale,355 ml,0.06%,49,496,Dry Dock Brewing Company,Aurora,CO
+Category 3 IPA,American IPA,12 oz,0.06%,64,340,Due South Brewing Company,Boynton Beach,FL
+Dundee Summer Wheat Beer,American Pale Wheat Ale,0.5 L,0.05%,18,538,Dundee Brewing Company,Rochester,NY
+Pumpkin Patch Ale,Pumpkin Ale,12 oz can,0.05,N/A,369,Eddyline Brewery & Restaurant,Buena Vista,CO
+Crank Yanker IPA,American IPA,12oz,0.078,74,369,Eddyline Brewery & Restaurant,Buena Vista,CO
+River Runners Pale Ale,American Pale Ale (APA),twelve ounce,0.06,N/A,369,Eddyline Brewery & Restaurant,Buena Vista,CO
+Pumpkin Patch Ale (2012),Pumpkin Ale,0.355 L,0.05,N/A,369,Eddyline Brewery & Restaurant,Buena Vista,CO
+Mountain Fairy Raspberry Wheat,Fruit / Vegetable Beer,12oz bottle,0.055,N/A,369,Eddyline Brewery & Restaurant,Buena Vista,CO
+Boater Beer,German Pilsener,12oz,0.045,N/A,369,Eddyline Brewery & Restaurant,Buena Vista,CO
+Crank Yanker IPA (2011),American IPA,355ml,0.078,74,369,Eddyline Brewery & Restaurant,Buena Vista,CO
+Bleeding Buckeye Red Ale,Extra Special / Strong Bitter (ESB),0.355 L,0.06%,N/A,352,Elevator Brewing Company,Columbus,OH
+Dottie Seattle Lager,American Amber / Red Lager,12 oz.,0.049,25,516,Emerald City Beer Company,Seattle,WA
+Nut Sack Imperial Brown Ale,American Brown Ale,355 ml,0.07,N/A,465,Engine 15 Brewing,Jacksonville Beach,FL
+Underachiever,American Adjunct Lager,16 oz,0.05%,N/A,473,Engine House 9,Tacoma,WA
+Lil' Brainless Raspberries,Fruit / Vegetable Beer,355ml,0.052,N/A,81,Epic Brewing,Denver,CO
+Element 29,American Pale Ale (APA),355ml,0.052,N/A,81,Epic Brewing,Denver,CO
+Hop Syndrome,American Pale Lager,0.5L,0.05%,N/A,81,Epic Brewing,Denver,CO
+Escape to Colorado,American IPA,0.355L,0.062,N/A,81,Epic Brewing,Denver,CO
+Little Sister India Style Session Ale,American IPA,0.355 L,0.04%,60,170,Everybody's Brewing,White Salmon,WA
+Country Boy IPA,American IPA,355 ml,0.062,80,170,Everybody's Brewing,White Salmon,WA
+Blonde Czich,American Blonde Ale,0.355L,0.05%,23,26,Evil Czech Brewery,Mishawaka,IN
+White Reaper,Belgian IPA,twelve ounce,0.07%,61,26,Evil Czech Brewery,Mishawaka,IN
+Bobblehead,American Pale Wheat Ale,12 oz can,0.051,N/A,26,Evil Czech Brewery,Mishawaka,IN
+Lucky Dog,American Pale Ale (APA),12 oz,0.052,N/A,26,Evil Czech Brewery,Mishawaka,IN
+Voodoo,American Porter,12oz bottle,0.048,N/A,26,Evil Czech Brewery,Mishawaka,IN
+General George Patton Pilsner,Czech Pilsener,twelve ounce,0.054,48,26,Evil Czech Brewery,Mishawaka,IN
+Nomader Weiss,Berliner Weissbier,0.355 L,0.04%,N/A,173,Evil Twin Brewing,Brooklyn,NY
+Molotov Lite,American Double / Imperial IPA,355ml,0.085,N/A,173,Evil Twin Brewing,Brooklyn,NY
+Hipster Ale (Two Roads Brewing),American Pale Ale (APA),0.355L,0.055,N/A,173,Evil Twin Brewing,Brooklyn,NY
+Bikini Beer,American IPA,355ml,0.03%,N/A,173,Evil Twin Brewing,Brooklyn,NY
+Hipster Ale (Westbrook Brewing),American Pale Ale (APA),12 oz.,0.06%,N/A,173,Evil Twin Brewing,Brooklyn,NY
+Iron Horse Pale Ale,American Pale Ale (APA),355 ml,0.05,32,335,Fargo Brewing Company,Fargo,ND
+Stone's Throw IPA,Scottish Ale,12 ounce,0.045,19,335,Fargo Brewing Company,Fargo,ND
+Wood Chipper India Pale Ale,American IPA,twelve ounce,0.067,70,335,Fargo Brewing Company,Fargo,ND
+Trail Head,American Pale Ale (APA),twelve ounce,0.06%,55,224,Fat Head's Brewery,Middleburg Heights,OH
+Hop Stalker Fresh Hop IPA,American IPA,12 ounce,0.07,80,224,Fat Head's Brewery,Middleburg Heights,OH
+Sudice American Stout,American Stout,355 ml,0.07,58,405,Fate Brewing Company,Boulder,CO
+Parcae Belgian Style Pale Ale,Belgian Pale Ale,12 ounce,0.05%,20,405,Fate Brewing Company,Boulder,CO
+Norns Roggenbier,Roggenbier,12 oz.,0.05,20,405,Fate Brewing Company,Boulder,CO
+Laimas Kölsch Style Ale,Kölsch,12 ounce,0.05,20,405,Fate Brewing Company,Boulder CO,
+Moirai India Pale Ale,American IPA,12oz,0.07%,70,405,Fate Brewing Company,Boulder,CO
+Loki Red Ale,American Amber / Red Ale,twelve ounce,0.08%,53,201,Fearless Brewing Company,Estacada,OR
+Peaches & Cream,Fruit / Vegetable Beer,0.355 L,0.046,N/A,201,Fearless Brewing Company,Estacada,OR
+Quaff India Style Session Ale,American IPA,12 oz.,0.051,N/A,201,Fearless Brewing Company,Estacada,OR
+Loki Red Ale (2013),American Amber / Red Ale,0.355L,0.075,53,201,Fearless Brewing Company,Estacada,OR
+Mjolnir Imperial IPA,American Double / Imperial IPA,12 oz,0.069,N/A,201,Fearless Brewing Company,Estacada,OR
+Fearless Scottish Ale,Scottish Ale,12oz bottle,0.05,N/A,201,Fearless Brewing Company,Estacada,OR
+Mastermind,American Double / Imperial IPA,twelve ounce,0.081,N/A,172,Fiddlehead Brewing Company,Shelburne,VT
+Hyzer Flip,American Double / Imperial IPA,0.355L,0.08%,N/A,172,Fiddlehead Brewing Company,Shelburne,VT
+Second Fiddle,American Double / Imperial IPA,355ml,0.082,80,172,Fiddlehead Brewing Company,Shelburne,VT
+Hodad Porter,American Porter,355 ml,0.06%,30,172,Fiddlehead Brewing Company,Shelburne,VT
+Weiss Weiss Baby,Kristalweizen,0.5L,0.045,N/A,36,Figueroa Mountain Brewing Company,Buellton,CA
+Czech Yo Self,Czech Pilsener,12 oz can,0.06%,45,36,Figueroa Mountain Brewing Company,Buellton,CA
+FMB 101,Kölsch,12oz bottle,0.048,20,36,Figueroa Mountain Brewing Company,Buellton CA,
+Hardcore Chimera,American Double / Imperial IPA,0.355 L,0.09%,N/A,256,Finch's Beer Company,Chicago,IL
+Sobek & Set,American Black Ale,330ml,0.08,80,256,Finch's Beer Company,Chicago,IL
+Nuclear Winter,Belgian Strong Dark Ale,12 oz,0.086,N/A,256,Finch's Beer Company,Chicago,IL
+Wet Hot American Wheat Ale,American Pale Wheat Ale,0.355 L,0.05,22,256,Finch's Beer Company,Chicago,IL
+Secret Stache Stout,American Stout,12 oz can,0.05%,N/A,256,Finch's Beer Company,Chicago,IL
+Fascist Pig Ale,American Amber / Red Ale,0.355L,0.08%,72,256,Finch's Beer Company,Chicago,IL
+Cut Throat Pale Ale,American Pale Ale (APA),twelve ounce,0.055,N/A,256,Finch's Beer Company,Chicago,IL
+Threadless IPA,American IPA,12oz,0.075,N/A,256,Finch's Beer Company,Chicago,IL
+Cut Throat Pale Ale (2011),American Pale Ale (APA),12 oz.,0.055,N/A,256,Finch's Beer Company,Chicago,IL
+Golden Wing Blonde Ale,American Blonde Ale,355 ml,0.05%,N/A,256,Finch's Beer Company,Chicago,IL
+Easy Jack,American IPA,12 oz,0.045,47,48,Firestone Walker Brewing Company,Paso Robles,CA
+Union Jack,American IPA,12 oz.,0.075,75,48,Firestone Walker Brewing Company,Paso Robles CA,
+Pivo Pils,German Pilsener,0.355 L,0.053,N/A,48,Firestone Walker Brewing Company,Paso Robles,CA
+805 Blonde Ale,American Blonde Ale,twelve ounce,0.047,N/A,48,Firestone Walker Brewing Company,Paso Robles,CA
+805,American Blonde Ale,355ml,0.047,20,48,Firestone Walker Brewing Company,Paso Robles,CA
+Deflator,Doppelbock,12 oz,0.065,N/A,16,Flat 12 Bierwerks,Indianapolis,IN
+Hinchtown Hammer Down,American Blonde Ale,355ml,0.05,27,16,Flat 12 Bierwerks,Indianapolis,IN
+Half Cycle IPA,American IPA,0.355L,0.06,104,16,Flat 12 Bierwerks,Indianapolis,IN
+Inclined Plane Ale,American IPA,12 ounce,,N/A,532,Flat Rock Brewing Company,Smithton,PA
+Moped Traveler,American Pale Ale (APA),355 ml,0.06%,N/A,54,Flesk Brewing Company,Lombard,IL
+Snake Dog IPA,American IPA,12oz,0.07%,60,521,Flying Dog Brewery,Frederick,MD
+Underdog Atlantic Lager,American Pale Lager,12 ounce,0.047,28,521,Flying Dog Brewery,Frederick,MD
+Flying Mouse 8,American Porter,12 ounce,0.04,N/A,50,Flying Mouse Brewery,Troutville,VA
+Flying Mouse 4,American IPA,12 ounce,0.07,70,50,Flying Mouse Brewery,Troutville,VA
+La Ferme Urbaine Farmhouse Ale,Saison / Farmhouse Ale,12 ounce,0.078,N/A,279,Foolproof Brewing Company,Pawtucket,RI
+Backyahd IPA,American IPA,12 oz can,0.06%,N/A,279,Foolproof Brewing Company,Pawtucket,RI
+Raincloud Robust Porter,American Porter,12 oz.,0.07%,N/A,279,Foolproof Brewing Company,Pawtucket,RI
+Barstool American Golden Ale,American Blonde Ale,12oz,0.045,N/A,279,Foolproof Brewing Company,Pawtucket,RI
+What the Butler Saw,Witbier,355 ml,0.05,18,217,Forgotten Boardwalk,Cherry Hill,NJ
+1916 Shore Shiver,American IPA,0.355 L,0.069,65,217,Forgotten Boardwalk,Cherry Hill,NJ
+Quick WIT,Belgian Pale Ale,355ml,0.05%,N/A,206,Fort George Brewery,Astoria,OR
+The Optimist,American IPA,12 oz,0.06%,N/A,206,Fort George Brewery,Astoria,OR
+Suicide Squeeze IPA,American IPA,12oz bottle,0.045,N/A,206,Fort George Brewery,Astoria,OR
+Java the Hop,American IPA,12 ounce,0.065,N/A,206,Fort George Brewery,Astoria,OR
+Next Adventure Black IPA,American Black Ale,0.355 L,0.062,N/A,206,Fort George Brewery,Astoria,OR
+3-Way IPA (2013),American IPA,355 ml,0.067,N/A,206,Fort George Brewery,Astoria,OR
+Tender Loving Empire NWPA,American Pale Ale (APA),12 oz can,0.058,N/A,206,Fort George Brewery,Astoria,OR
+Quick Wit Belgianesque Ale,Witbier,12oz,0.052,N/A,206,Fort George Brewery,Astoria,OR
+Sunrise Oatmeal Pale Ale,American Pale Ale (APA),355 ml,0.055,N/A,206,Fort George Brewery,Astoria,OR
+Cavatica Stout,American Double / Imperial Stout,12 oz can,0.088,N/A,206,Fort George Brewery,Astoria,OR
+1811 Lager,American Amber / Red Lager,355 ml,0.051,N/A,206,Fort George Brewery,Astoria,OR
+Vortex IPA,American IPA,355ml,0.07%,97,206,Fort George Brewery,Astoria,OR
+Fort Pitt Ale,American Amber / Red Ale,0.355 L,,N/A,151,Fort Pitt Brewing Company,Latrobe PA,
+Park,American Pale Wheat Ale,12 ounce,0.05%,19,4,Fort Point Beer Company,San Francisco,CA
+Westfalia,American Amber / Red Ale,12oz bottle,0.056,16,4,Fort Point Beer Company,San Francisco,CA
+KSA,Kölsch,400ml,0.046,17,4,Fort Point Beer Company,San Francisco,CA
+Villager,American IPA,0.355 L,0.063,42,4,Fort Point Beer Company,San Francisco,CA
+Dirty Bastard,Scotch Ale / Wee Heavy,12 oz,0.085,50,15,Founders Brewing Company,Grand Rapids,MI
+Centennial IPA,American IPA,500 ml,0.072,65,15,Founders Brewing Company,Grand Rapids,MI
+All Day IPA,American IPA,12oz,0.047,42,15,Founders Brewing Company,Grand Rapids,MI
+El Chingon IPA,American IPA,twelve ounce,0.08%,73,287,Four Corners Brewing Company,Dallas,TX
+Block Party Robust Porter,American Porter,12 oz can,0.057,40,287,Four Corners Brewing Company,Dallas,TX
+Local Buzz,American Blonde Ale,0.355L,0.052,20,287,Four Corners Brewing Company,Dallas TX,
+Feel Like Maplin' Love,Oatmeal Stout,12 oz can,0.055,N/A,22,Four Fathers Brewing,Valparaiso,IN
+Father's Beer,Belgian Pale Ale,twelve ounce,0.05,N/A,22,Four Fathers Brewing,Valparaiso,IN
+The 26th,American IPA,12oz,0.06,N/A,22,Four Fathers Brewing,Valparaiso,IN
+The Gadget,American IPA,0.355 L,0.064,90,22,Four Fathers Brewing,Valparaiso,IN
+Leprechaun Lager,American Pale Lager,0.355 L,0.04%,N/A,348,Four Horsemen Brewing Company,South Bend,IN
+Sunbru Kölsch,Kölsch,355 ml,0.052,17,160,Four Peaks Brewing Company,Tempe,AZ
+Kilt Lifter Scottish-Style Ale,,12oz,0.06,21,160,Four Peaks Brewing Company,Tempe,AZ
+Pumpkin Porter,American Porter,12 oz,0.051,N/A,160,Four Peaks Brewing Company,Tempe,AZ
+Four Peaks Peach Ale,Fruit / Vegetable Beer,12 oz,0.042,9,160,Four Peaks Brewing Company,Tempe,AZ
+Hop Knot IPA,American IPA,330ml,0.067,47,160,Four Peaks Brewing Company,Tempe,AZ
+Kilt Lifter Scottish-Style Ale (2009),Scottish Ale,12 oz can,0.06,21,160,Four Peaks Brewing Company,Tempe,AZ
+Sunbru Kölsch,Kölsch,0.355 L,0.052,N/A,160,Four Peaks Brewing Company,Tempe,AZ
+Four String Vanilla Porter,American Porter,12 oz,0.06,N/A,105,Four String Brewing Company,Columbus,OH
+Suncaster Summer Wheat,American Pale Wheat Ale,0.355L,0.05%,28,105,Four String Brewing Company,Columbus,OH
+Brass Knuckle Pale Ale,American Pale Ale (APA),12oz bottle,0.057,36,105,Four String Brewing Company,Columbus,OH
+Big Star White IPA,American White IPA,12 oz can,0.07,70,105,Four String Brewing Company,Columbus,OH
+Old Detroit,American Amber / Red Ale,0.355L,0.06%,N/A,253,Frankenmuth Brewery,Frankenmuth,MI
+Batch 69 IPA,American IPA,0.355L,0.069,69,253,Frankenmuth Brewery,Frankenmuth MI,
+Twisted Helles Summer Lager,Munich Helles Lager,355ml,0.055,18,253,Frankenmuth Brewery,Frankenmuth,MI
+OktoberFiesta,,12 ounce,0.053,27,66,Freetail Brewing Company,San Antonio,TX
+Texicali,American Brown Ale,0.355 L,0.07%,33,66,Freetail Brewing Company,San Antonio,TX
+Pinata Protest,Witbier,12 oz.,0.06,N/A,66,Freetail Brewing Company,San Antonio,TX
+Bat Outta Helles,Munich Helles Lager,0.355 L,0.042,20,66,Freetail Brewing Company,San Antonio,TX
+Original,American Amber / Red Ale,500ml,0.068,N/A,66,Freetail Brewing Company,San Antonio,TX
+Rye Wit,Witbier,12oz,0.042,10,66,Freetail Brewing Company,San Antonio,TX
+Soul Doubt,American IPA,12oz bottle,0.059,70,66,Freetail Brewing Company,San Antonio,TX
+Yo Soy Un Berliner,Berliner Weissbier,12 oz can,0.044,5,66,Freetail Brewing Company,San Antonio,TX
+77 Fremont Select Spring Session IPA,American IPA,16 oz,0.04,N/A,460,Fremont Brewing Company,Seattle,WA
+Fremont Organic Pale Ale,American Pale Ale (APA),12oz,0.045,N/A,460,Fremont Brewing Company,Seattle,WA
+Abominable Ale,English Strong Ale,12 oz can,0.08,N/A,460,Fremont Brewing Company,Seattle,WA
+Harvest Ale,Saison / Farmhouse Ale,12oz bottle,0.07%,35,460,Fremont Brewing Company,Seattle,WA
+Fremont Summer Ale,American Pale Ale (APA),0.355L,0.065,45,460,Fremont Brewing Company,Seattle,WA
+Universale Pale Ale,American Pale Ale (APA),twelve ounce,0.06%,30,460,Fremont Brewing Company,Seattle,WA
+Interurban IPA,American IPA,0.355 L,0.07%,80,460,Fremont Brewing Company,Seattle,WA
+Gateway Kolsch Style Ale,Kölsch,12 oz.,0.05%,32,433,French Broad Brewery,Asheville,NC
+Wee-Heavy-Er Scotch Ale,Scotch Ale / Wee Heavy,12 oz can,0.07%,24,433,French Broad Brewery,Asheville,NC
+13 Rebels ESB,Extra Special / Strong Bitter (ESB),0.355L,0.05%,42,433,French Broad Brewery,Asheville,NC
+Salamander Slam,American IPA,12 ounce,0.07%,73,180,Frog Level Brewing Company,Waynesville,NC
+Cack-A-Lacky,American Pale Ale (APA),12oz,0.05%,N/A,347,Fullsteam Brewery,Durham,NC
+No Wake IPA,American IPA,12 oz,0.072,50,228,Geneva Lake Brewing Company,Lake Geneva WI,
+Boathouse Blonde,American Blonde Ale,twelve ounce,0.049,15,228,Geneva Lake Brewing Company,Lake Geneva,WI
+Cedar Point,American Amber / Red Ale,0.355 L,0.05,26,228,Geneva Lake Brewing Company,Lake Geneva,WI
+Clean Shave IPA,American IPA,16 oz,0.067,70,106,Glabrous Brewing Company,Pineland ME,
+Might As Well IPL,American Pale Lager,12 ounce,0.072,75,240,Golden Road Brewing,Los Angeles CA,
+Saison Pamplemousse,Saison / Farmhouse Ale,0.355 L,0.06%,35,240,Golden Road Brewing,Los Angeles,CA
+2020 IPA,American IPA,12oz,0.074,74,240,Golden Road Brewing,Los Angeles,CA
+Wolf Among Weeds IPA,American IPA,12 oz,0.08,70,240,Golden Road Brewing,Los Angeles,CA
+Better Weather IPA,American IPA,12 oz.,0.094,92,240,Golden Road Brewing,Los Angeles,CA
+Point the Way IPA,American IPA,12 oz.,0.06%,60,240,Golden Road Brewing,Los Angeles,CA
+Golden Road Hefeweizen,Hefeweizen,330 ml,0.046,15,240,Golden Road Brewing,Los Angeles,CA
+Heal the Bay IPA,American IPA,12oz,0.068,65,240,Golden Road Brewing,Los Angeles CA,
+Point the Way IPA,American IPA,355ml,0.06%,60,240,Golden Road Brewing,Los Angeles,CA
+Cabrillo Kölsch,Kölsch,12 oz,0.05,N/A,240,Golden Road Brewing,Los Angeles,CA
+Get Up Offa That Brown,American Brown Ale,0.355 L,0.055,20,240,Golden Road Brewing,Los Angeles,CA
+Burning Bush Smoked IPA,American IPA,12 ounce,0.08,70,240,Golden Road Brewing,Los Angeles,CA
+Wolf Among Weeds IPA (2012),American IPA,twelve ounce,0.08,70,240,Golden Road Brewing,Los Angeles,CA
+Point the Way IPA (2012),American IPA,12 ounce,0.059,60,240,Golden Road Brewing,Los Angeles,CA
+Golden Road Hefeweizen (2012),Hefeweizen,12 oz.,0.05%,15,240,Golden Road Brewing,Los Angeles,CA
+Vanilla Porter,American Porter,12 oz.,0.07,11,39,Gonzo's BiggDogg Brewing,Kalamazoo,MI
+Descender IPA,American IPA,12oz,0.07,70,464,Good Life Brewing Company,Bend,OR
+Sweet As Pacific Ale,American Pale Wheat Ale,12oz bottle,0.06,18,464,Good Life Brewing Company,Bend,OR
+Good People Pale Ale,American Pale Ale (APA),355ml,0.06%,36,478,Good People Brewing Company,Birmingham,AL
+Snake Handler Double IPA,American Double / Imperial IPA,355 ml,0.093,103,478,Good People Brewing Company,Birmingham,AL
+Coffee Oatmeal Stout,Oatmeal Stout,12 oz can,0.06,54,478,Good People Brewing Company,Birmingham,AL
+Good People IPA,American IPA,0.355 L,0.06,64,478,Good People Brewing Company,Birmingham,AL
+Good People American Brown Ale,American Brown Ale,12 oz.,0.06%,36,478,Good People Brewing Company,Birmingham,AL
+Mountain Rescue Pale Ale,American Pale Ale (APA),0.355L,0.055,40,194,Goodlife Brewing Co.,Bend,OR
+Goose Island India Pale Ale,American IPA,500ml,0.059,55,196,Goose Island Brewery Company,Chicago,IL
+312 Urban Pale Ale,American Pale Ale (APA),12 oz,0.054,30,88,Goose Island Brewing Company,Chicago,IL
+312 Urban Pale Ale,American Pale Ale (APA),0.5 L,0.05%,30,88,Goose Island Brewing Company,Chicago,IL
+312 Urban Wheat Ale,American Pale Wheat Ale,355 ml,0.04%,18,88,Goose Island Brewing Company,Chicago,IL
+312 Urban Wheat Ale,American Pale Wheat Ale,12 ounce,0.04%,18,88,Goose Island Brewing Company,Chicago IL,
+312 Urban Wheat Ale (2012),American Pale Wheat Ale,12oz,0.04%,20,88,Goose Island Brewing Company,Chicago,IL
+Beaver Logger,American Pale Lager,12 oz,0.05%,19,420,Gore Range Brewery,Edwards,CO
+White Water Wheat,American Pale Wheat Ale,355 ml,0.05,N/A,536,Grand Canyon Brewing Company,Williams,AZ
+Grand Canyon American Pilsner,American Pilsner,400 ml,0.05%,N/A,536,Grand Canyon Brewing Company,Williams,AZ
+Grand Canyon Sunset Amber Ale,American Amber / Red Ale,12 oz can,0.054,N/A,536,Grand Canyon Brewing Company,Williams,AZ
+Black Iron India Pale Ale,American IPA,12 oz.,,N/A,536,Grand Canyon Brewing Company,Williams,AZ
+Monarch Classic American Wheat,American Pale Wheat Ale,0.5L,0.043,21,213,Grapevine Craft Brewery,Farmers Branch,TX
+Sir William's English Brown Ale,English Brown Ale,0.355L,0.049,21,213,Grapevine Craft Brewery,Farmers Branch,TX
+Lakefire Rye Pale Ale,American Pale Ale (APA),12 oz can,0.055,35,213,Grapevine Craft Brewery,Farmers Branch,TX
+Beer Agent Re-Ignition,American Blonde Ale,0.355L,0.053,22,165,Great Crescent Brewery,Aurora,IN
+Cherry Ale,Fruit / Vegetable Beer,355 ml,0.057,18,165,Great Crescent Brewery,Aurora,IN
+Bourbon Barrel Aged Coconut Porter,American Porter,12oz bottle,0.056,33,165,Great Crescent Brewery,Aurora,IN
+Great Crescent IPA,American IPA,400ml,0.062,60,165,Great Crescent Brewery,Aurora,IN
+Aurora Lager,Dortmunder / Export Lager,12oz bottle,0.057,27,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Blonde Ale,American Blonde Ale,12 oz,0.053,22,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Coconut Porter,American Porter,355ml,0.056,33,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Oktoberfest Lager,Märzen / Oktoberfest,12 oz can,0.06%,25,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Brown Ale,American Brown Ale,12 oz.,0.045,36,165,Great Crescent Brewery,Aurora,IN
+Cherry Ale (1),Fruit / Vegetable Beer,0.5 L,0.057,18,165,Great Crescent Brewery,Aurora,IN
+Aurora Lager (2011),Dortmunder / Export Lager,12oz bottle,0.06%,27,165,Great Crescent Brewery,Aurora,IN
+Frosted Fields Winter Wheat,American Dark Wheat Ale,12 ounce,0.06%,25,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Belgian Style Wit,Witbier,355ml,0.051,13,165,Great Crescent Brewery,Aurora IN,
+Bourbon's Barrel Stout,American Stout,12 oz can,0.075,65,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Stout,English Stout,8 oz,0.08,66,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Coconut Porter (2012),American Porter,355ml,0.06%,33,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Dark Lager,Euro Dark Lager,12 oz,0.057,23,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Mild Ale,English Dark Mild Ale,12 oz.,0.042,26,165,Great Crescent Brewery,Aurora,IN
+Great Crescent IPA (2011),American IPA,400 ml,0.06%,60,165,Great Crescent Brewery,Aurora,IN
+Great Crescent Blonde Ale (2011),American Blonde Ale,12oz bottle,0.05%,22,165,Great Crescent Brewery,Aurora,IN
+Denver Pale Ale (Artist Series No. 1),American Pale Ale (APA),12 ounce,0.05,N/A,6,Great Divide Brewing Company,Denver,CO
+Hibernation Ale,Old Ale,12 oz,0.087,N/A,6,Great Divide Brewing Company,Denver,CO
+Whitewater,American Pale Wheat Ale,355ml,0.06%,N/A,6,Great Divide Brewing Company,Denver,CO
+Rumble,American IPA,355 ml,0.071,N/A,6,Great Divide Brewing Company,Denver,CO
+Orabelle,Tripel,12oz bottle,0.08%,N/A,6,Great Divide Brewing Company,Denver CO,
+Lasso,American IPA,400 ml,0.05,N/A,6,Great Divide Brewing Company,Denver,CO
+Yeti  Imperial Stout,Russian Imperial Stout,355 ml,0.10%,75,6,Great Divide Brewing Company,Denver,CO
+Colette,Saison / Farmhouse Ale,355 ml,0.07%,N/A,6,Great Divide Brewing Company,Denver,CO
+Titan IPA,American IPA,0.355L,0.071,N/A,6,Great Divide Brewing Company,Denver,CO
+Black Star Double Hopped Golden Lager (24 oz.),American Pale Lager,12 oz can,0.05%,15,543,Great Northern Brewing Company,Whitefish,MT
+Black Star Double Hopped Golden Lager (12 oz.),American Pale Lager,12oz bottle,0.045,15,543,Great Northern Brewing Company,Whitefish,MT
+Commotion APA,American Pale Ale (APA),16 oz,0.052,49,269,Great Raft Brewing Company,Shreveport,LA
+Southern Drawl Pale Lager,American Pale Lager,12oz,0.052,N/A,269,Great Raft Brewing Company,Shreveport,LA
+Chickawawa Lemonale,Fruit / Vegetable Beer,355 ml,0.05,5,365,Great River Brewery,Davenport,IA
+Barrel Aged Farmer,American Brown Ale,355ml,0.07%,22,365,Great River Brewery,Davenport,IA
+Great River Golden Ale,American Blonde Ale,0.355 L,0.048,N/A,365,Great River Brewery,Davenport,IA
+Dirty Blonde Chocolate Ale,American Blonde Ale,0.5 L,0.048,N/A,365,Great River Brewery,Davenport,IA
+Dos Pistolas,Vienna Lager,12 oz.,0.05%,20,365,Great River Brewery,Davenport,IA
+Owney Irish Style Red Ale,Irish Red Ale,12 oz.,0.05,30,365,Great River Brewery,Davenport,IA
+Aaah Bock Lager,Vienna Lager,twelve ounce,0.06%,N/A,365,Great River Brewery,Davenport,IA
+Widespread Wit,Witbier,12oz,0.055,10,365,Great River Brewery,Davenport,IA
+Roller Dam Red Ale,Irish Red Ale,12 oz can,0.05%,30,365,Great River Brewery,Davenport,IA
+483 Pale Ale,American Pale Ale (APA),12 oz.,0.053,48,365,Great River Brewery,Davenport,IA
+Hop A Potamus Double Dark Rye Pale Ale,Rye Beer,0.355 L,0.09%,99,365,Great River Brewery,Davenport,IA
+Farmer Brown Ale,American Brown Ale,330ml,0.07,22,365,Great River Brewery,Davenport,IA
+Big Cock IPA,American IPA,12 oz,0.07%,70,365,Great River Brewery,Davenport,IA
+Oktoberfest,Märzen / Oktoberfest,12 oz,0.06%,25,365,Great River Brewery,Davenport,IA
+40th Annual Bix Street Fest Copper Ale (Current),American Amber / Red Ale,0.355 L,0.048,25,365,Great River Brewery,Davenport,IA
+Redband Stout,American Stout,355ml,0.06%,36,365,Great River Brewery,Davenport,IA
+483 Pale Ale (2010),American Pale Ale (APA),12oz bottle,0.05%,48,365,Great River Brewery,Davenport,IA
+Roller Dam Red Ale (2010),Irish Red Ale,twelve ounce,0.054,30,365,Great River Brewery,Davenport,IA
+Pablo Beach Pale Ale,American Pale Ale (APA),12oz bottle,0.05%,30,466,Green Room Brewing,Jacksonville,FL
+Wild Trail Pale Ale,American Pale Ale (APA),330 ml,0.057,44,156,Greenbrier Valley Brewing Company,Lewisburg,WV
+Mothman Black IPA,American Black Ale,0.355 L,0.067,71,156,Greenbrier Valley Brewing Company,Lewisburg,WV
+Autumn Winds Fest Beer,Märzen / Oktoberfest,12 oz.,0.058,N/A,86,Grey Sail Brewing Company,Westerly,RI
+Captain's Daughter,American Double / Imperial IPA,12 oz.,0.085,69,86,Grey Sail Brewing Company,Westerly,RI
+Autumn Winds,Märzen / Oktoberfest,0.355L,0.058,N/A,379,Grey Sail Brewing of Rhode Island,Westerly,RI
+Flying Jenny Extra Pale Ale,American Pale Ale (APA),12 oz can,0.06%,54,379,Grey Sail Brewing of Rhode Island,Westerly,RI
+Hazy Day Belgian-Style Wit,Witbier,12 oz can,0.04,20,379,Grey Sail Brewing of Rhode Island,Westerly,RI
+Bring Back the Beach Blonde Ale,American Blonde Ale,12 oz,0.055,N/A,379,Grey Sail Brewing of Rhode Island,Westerly,RI
+Leaning Chimney Smoked Porter,American Porter,0.355 L,0.06,34,379,Grey Sail Brewing of Rhode Island,Westerly,RI
+Flying Jenny Extra Pale Ale (2012),American Pale Ale (APA),0.355 L,0.06%,54,379,Grey Sail Brewing of Rhode Island,Westerly,RI
+Flagship Ale,Cream Ale,12oz,0.05%,22,379,Grey Sail Brewing of Rhode Island,Westerly,RI
+Mr. Blue Sky,American Pale Wheat Ale,12 oz can,0.045,6,124,Griffin Claw Brewing Company,Birmingham,MI
+3 Scrooges,Winter Warmer,0.355L,0.07%,N/A,124,Griffin Claw Brewing Company,Birmingham,MI
+Screamin’ Pumpkin,Pumpkin Ale,12 oz.,0.05,25,124,Griffin Claw Brewing Company,Birmingham,MI
+Grand Trunk Bohemian Pils,Czech Pilsener,12oz bottle,0.05%,35,124,Griffin Claw Brewing Company,Birmingham,MI
+El Rojo,American Amber / Red Ale,12oz bottle,0.065,25,124,Griffin Claw Brewing Company,Birmingham,MI
+Norm's Raggedy Ass IPA,American IPA,12 oz.,0.075,N/A,124,Griffin Claw Brewing Company,Birmingham,MI
+Grind Line,American Pale Ale (APA),12oz bottle,0.05%,35,124,Griffin Claw Brewing Company,Birmingham,MI
+Norm's Gateway IPA,American IPA,0.355L,0.04,55,124,Griffin Claw Brewing Company,Birmingham,MI
+Lemon Shandy Tripel,Tripel,0.355L,0.09,N/A,124,Griffin Claw Brewing Company,Birmingham,MI

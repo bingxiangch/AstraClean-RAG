@@ -1,0 +1,4 @@
+{"id": "1", "table": "beer", "column": "ounces", "domain_rule": "Values must be numeric, round to one decimal place. Convert ml or L to oz (1 oz = 29.57 ml)"}
+{"id": "2", "table": "beer", "column": "abv", "domain_rule": "ABV (alcohol by volume) should be a numeric percentage without any symbols or text. Remove '%' and text like 'percent' or 'alcohol' and represent as a float (e.g., 5.0)."}
+{"id": "3", "table": "beer", "column": "name", "domain_rule": "Beer names should be properly capitalized; remove trailing spaces or special characters."}
+{"id": "4", "table": "beer", "column": "style", "domain_rule": "Ensure consistent capitalization of beer styles (e.g., 'India Pale Ale' instead of 'india pale ale')."}
