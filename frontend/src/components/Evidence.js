@@ -42,6 +42,12 @@ const DataTuple = (props) => {
           <span style={{ fontWeight: "bold" }}>Evidence: </span>
           {props.sourceTuple[0].values}
         </Typography>
+        <Typography fontSize="1.3rem">
+          <span style={{ fontWeight: "bold" }}>Potential Conflict: </span>
+          <span style={{ color: "red" }}>
+            {props.conflictSummary || "None"}
+          </span>
+        </Typography>
       </Paper>
     </Box>
   );

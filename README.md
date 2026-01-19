@@ -4,13 +4,14 @@
 AstraClean-RAG combines large language models with dual-source retrieval to make data cleaning more reliable, explainable, and reusable.
 
 - **Dual Sources of Evidence:**  
-  (1) Historical correction logs capturing verified past fixes.  
-  (2) Domain knowledge bases encoding valid rules, mappings, and formats.  
+  1. **Historical correction logs** capturing verified past fixes.  
+  2. **Domain knowledge bases** encoding valid rules, mappings, and formats.  
 
 - **Key Features:**  
   ✓ Retrieval-grounded cleaning for consistency and transparency  
   ✓ Human-in-the-loop verification and feedback logging  
   ✓ Continuous improvement without retraining  
+  ✓ Conflict detection with neutral summaries to support human review  
 
 ---
 
@@ -19,12 +20,19 @@ AstraClean-RAG combines large language models with dual-source retrieval to make
 ![High-Level Pipeline](system_image/high_level.drawio.png)  
 *High-level integration of AstraClean-RAG in the data engineering pipeline.*
 
-![System Architecture](system_image/dataclenaing.png)  
+![System Architecture](system_image/datacleaning_workshop.drawio.png)  
 *Dual-source retrieval and feedback workflow.*
 
-![Demo Interface](system_image/Demo.png)  
+![Demo Interface](system_image/Demo_latest.png)  
 *Interactive web demo for uploading data, cleaning, and validating results.*
 
+---
+
+### Summary
+
+AstraClean-RAG is designed for collaborative, context-aware tabular data cleaning. It uses retrieval-augmented generation to incorporate **both domain rules and historical human corrections** into LLM suggestions.  
+The system highlights conflicts in retrieved evidence and provides concise summaries to help users make informed decisions, rather than automatically resolving disagreements.  
+Exploratory evaluation shows that **dual-source retrieval improves consistency, repeatability, and correctness**, supporting lightweight human-in-the-loop workflows while gradually accumulating reusable knowledge.
 
 ## Repository Structure
 
@@ -61,7 +69,7 @@ OPENAI_MODEL=
 Run the backend server:
 
 ```
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 ---

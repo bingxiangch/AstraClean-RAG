@@ -52,10 +52,12 @@ class GPT3(LanguageModel):
             "- guidance tells how to clean.\n"
             "- context gives examples of dirty→clean.\n"
             "- Use both to clean the value.\n"
+            "- If the context contains two sources with different suggested values, detect the conflict and summarize concisely.\n"
             'Return STRICT JSON on ONE line using DOUBLE quotes exactly as:\n'
-            '{"value": <cleaned_value>, "table_name": "", "row_number": "", "object_id": ""}\n'
+            '{"value": <cleaned_value>, "table_name": "", "row_number": "", "object_id": "", "conflict_summary": ""}\n'
             'No extra text.'
         )
+
 
 
         return [

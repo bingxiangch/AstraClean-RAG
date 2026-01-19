@@ -86,6 +86,14 @@ class LanguageModel(ABC):
                     if retrived_object != None and type(retrived_object) == str
                     else retrived_object
                 )
+                # -------------------------
+                # extract conflict_summary
+                # -------------------------
+                conflict_summary = (
+                    response_dict.get("conflict_summary")
+                    if response_dict.get("conflict_summary") not in ["", "none", "unknown", "n/a"]
+                    else None
+                )
             else:
 
                 table_name = None
@@ -98,6 +106,7 @@ class LanguageModel(ABC):
                 "table_name": table_name,
                 "row_number": row_number,
                 "citation": retrieved,
+                "conflict_summary": conflict_summary,
             }
 
         except Exception as e:

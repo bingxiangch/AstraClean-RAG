@@ -195,92 +195,6 @@ const RepairModule = (props) => {
     });
   };
 
-  // // Repair Methods
-  // const onRunJob = async () => {
-  //   setResult({ ...result, isLoading: true });
-
-  //   const { dirtyColumData, pivotColumData } = prepareData(
-  //     dirtyData.content,
-  //     dirtyData.rows,
-  //     configuration.dirtyColumn,
-  //     configuration.pivotColumns
-  //   );
-
-  //   const indexName =
-  //     configuration.searchIndexName !== ""
-  //       ? configuration.searchIndexName
-  //       : null;
-
-  //   let indexType = null;
-  //   let rerankerType = null;
-  //   if (indexName !== null) {
-  //     if (
-  //       configuration.indexState["Syntactic"] &&
-  //       configuration.indexState["Semantic"]
-  //     ) {
-  //       indexType = "both";
-  //     } else if (configuration.indexState["Semantic"]) {
-  //       indexType = "semantic";
-  //     } else if (configuration.indexState["Syntactic"]) {
-  //       indexType = "syntactic";
-  //     }
-
-  //     if (configuration.rerankState["ColBERT"]) {
-  //       rerankerType = "ColBERT";
-  //     } else if (configuration.rerankState["Cross Encoder"]) {
-  //       rerankerType = "Cross Encoder";
-  //     }
-  //   }
-
-  //   const requestObj = {
-  //     entity_description: entityDescription !== "" ? entityDescription : null,
-  //     target_name: configuration.dirtyColumn,
-  //     target_data: dirtyColumData,
-  //     pivot_names: Array.from(configuration.pivotColumns),
-  //     pivot_data: pivotColumData,
-  //     reasoner_name: configuration.reasonerName,
-  //     index_name: indexName,
-  //     index_type: indexType,
-  //     reranker_type: rerankerType,
-  //   };
-
-  //   setResult({ ...result, isLoading: true });
-  //   const response = await getRepairs(requestObj);
-  //   setResult({ ...result, isLoading: false });
-  //   const repairs = response.results;
-
-  //   let marked = new Set();
-  //   let content = [...dirtyData.content];
-  //   let data = [];
-  //   let j = 0;
-  //   for (let i = 0; i < dirtyData.content.length; i++) {
-  //     let rowObj = content[i];
-  //     if (dirtyData.rows.has(i)) {
-  //       const repairValue = repairs[j].value;
-  //       rowObj[resultColumn] = repairValue;
-  //       data.push(repairs[j]);
-  //       if (repairValue !== null) marked.add(i);
-  //       j++;
-  //     } else {
-  //       rowObj[resultColumn] = null;
-  //       data.push(null);
-  //     }
-  //     content[i] = rowObj;
-  //   }
-  //   setResult({
-  //     ...result,
-  //     data: data,
-  //     marked: marked,
-  //     isLoading: false,
-  //   });
-  //   setEvidence({
-  //     sourceTuple: null,
-  //     sourceTableName: null,
-  //     sourceRowNumber: null,
-  //   });
-  //   setDirtyData({ ...dirtyData, content: content });
-  // };
-
 
 
 
@@ -403,34 +317,18 @@ const onRunJob = async () => {
   const onShowEvidence = (index) => {
     const dataObj = result.data[index];
     const sourceTuple = dataObj.citation;
+    const conflicSummary = dataObj.conflict_summary;
     const sourceTableName = dataObj.table_name;
     const sourceRowNumber = dataObj.row_number;
     setEvidence({
       sourceTuple: sourceTuple,
       sourceTableName: sourceTableName,
       sourceRowNumber: sourceRowNumber,
+      conflicSummary: conflicSummary,
     });
   };
 
-  // const onApplyRepairs = () => {
-  //   if (result.data.length !== 0) {
-  //     let content = [...dirtyData.content];
-  //     debugger
-  //     for (const index of result.marked) {
-  //       let rowObj = content[index];
-  //       rowObj[configuration.dirtyColumn] = rowObj[resultColumn];
-  //       delete rowObj[resultColumn];
-  //       content[index] = rowObj;
-  //     }
-  //     setResult({ ...result, data: [], marked: new Set() });
-  //     setEvidence({
-  //       sourceTuple: null,
-  //       sourceTableName: null,
-  //       sourceRowNumber: null,
-  //     });
-  //     setDirtyData({ ...dirtyData, content: content });
-  //   }
-  // };
+
 
   const onApplyRepairs = async () => {  // <-- add async here
     if (result.data.length === 0) return;
@@ -457,7 +355,7 @@ const onRunJob = async () => {
     }
 
     setResult({ ...result, data: [], marked: new Set() });
-    setEvidence({ sourceTuple: null, sourceTableName: null, sourceRowNumber: null });
+    setEvidence({ sourceTuple: null, sourceTableName: null, sourceRowNumber: null, conflicSummary: null });
     setDirtyData({ ...dirtyData, content });
     if (repairedRows.length > 0) {
       try {
@@ -485,6 +383,7 @@ const onRunJob = async () => {
       sourceTuple: null,
       sourceTableName: null,
       sourceRowNumber: null,
+      conflicSummary: null,
     });
   };
 
@@ -581,6 +480,7 @@ const onRunJob = async () => {
                   sourceTuple={evidence.sourceTuple}
                   sourceTableName={evidence.sourceTableName}
                   sourceRowNumber={evidence.sourceRowNumber}
+                  conflicSummary={evidence.conflicSummary}
                 />
               )}
             </Box>
