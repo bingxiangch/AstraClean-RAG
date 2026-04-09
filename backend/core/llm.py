@@ -1,3 +1,16 @@
+def call_llm(prompt: str) -> str:
+    """
+    通用LLM调用接口，输入prompt，返回模型输出（同步版本，适合规则生成等场景）。
+    """
+    # 这里假设有默认模型
+    model_name = list(initialized_models.keys())[0]
+    model = initialized_models[model_name]
+    wrapped_text = model.prompt_wrapper(prompt)
+    response = model.generate(wrapped_text, None)
+    # 假设response为dict，取value字段
+    if isinstance(response, dict) and 'value' in response:
+        return response['value']
+    return str(response)
 from typing import Optional
 from core import initialized_models
 from core.preprocess import prompt_preprocess

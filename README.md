@@ -20,7 +20,7 @@ AstraClean-RAG combines large language models with dual-source retrieval to make
 ![High-Level Pipeline](system_image/high_level.drawio.png)  
 *High-level integration of AstraClean-RAG in the data engineering pipeline.*
 
-![System Architecture](system_image/datacleaning_workshop.drawio.png)  
+![System Architecture](system_image/architecture.png)  
 *Dual-source retrieval and feedback workflow.*
 
 ![Demo Interface](system_image/Demo_latest.png)  

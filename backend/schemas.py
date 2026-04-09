@@ -1,3 +1,18 @@
+from typing import List, Dict, Any
+from pydantic import BaseModel
+
+# --- Domain Knowledge Base Construction ---
+class SampleRequest(BaseModel):
+    frac: float = 0.1
+    min_rows: int = 100
+    stratify_cols: List[str] = []
+
+class RuleGenRequest(BaseModel):
+    sample: List[Dict[str, Any]]
+
+class SaveRulesRequest(BaseModel):
+    rules: Dict[str, Any]
+    dataset: str
 from pydantic import BaseModel
 from typing import Optional
 

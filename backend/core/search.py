@@ -54,11 +54,13 @@ async def search_data(
 
                 # Encode Query using Sentence Transformer
                 search_query_embedding = sentence_model.encode(search_query).tolist()
-
+                
                 # Get top-k results from Qdrant
                 qdrant_results = qdrant_client.search(
                     collection_name=index_name,
                     query_vector=search_query_embedding,
+                    with_payload=True,
+
                     limit=1,
                 )  # Expected Format: [{"values": str, "table_name": str, "row_number": int, "score": float} , {"values": str, "table_name": str, "row_number": int, "score": float} , ... ]
                 qdrant_results_formatted = [

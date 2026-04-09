@@ -6,7 +6,7 @@ python-multipart
 pandas
 sentence-transformers
 elasticsearch
-qdrant-client
+qdrant-client==1.15.1
 python-multipart
 openai
 ollama
