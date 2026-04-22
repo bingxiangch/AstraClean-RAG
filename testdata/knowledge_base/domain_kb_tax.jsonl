@@ -1,0 +1,2 @@
+{"id": "1", "table": "tax", "column": "zip", "rule_type": "format", "domain_rule": "ZIP codes should be represented in a consistent 5-digit format."}
+{"id": "2", "table": "tax", "column": "rate", "rule_type": "range", "domain_rule": "Rate values should be numeric and within a reasonable range (e.g., 0 to 10), without unnecessary precision."}

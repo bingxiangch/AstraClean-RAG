@@ -26,7 +26,7 @@ const CustomToolbar = (props) => (
       sx={{ mb: "4px", height: 50 }}
     >
       <GridToolbarExport />
-      {props.result.data.length !== 0 && (
+      {Object.keys(props.result.data).length !== 0 && (
         <Button
           startIcon={<KeyboardDoubleArrowDownIcon />}
           onClick={props.onApplyRepairs}
@@ -34,7 +34,7 @@ const CustomToolbar = (props) => (
           Clean & Log (Append)
         </Button>
       )}
-      {props.result.data.length !== 0 && (
+      {Object.keys(props.result.data).length !== 0 && (
         <Button
           startIcon={<NotInterestedIcon />}
           onClick={props.onCancelRepairs}
@@ -55,14 +55,21 @@ const ResultCell = (props) => (
           control={
             <Checkbox
               checked={props.result.marked.has(props.params.id)}
-              onChange={() => props.onMarkResult(props.params.id)}
+              onChange={() => {
+                console.log("Marking result at id:", props.params.id);
+                props.onMarkResult(props.params.id);
+              }}
             />
           }
         />
         {props.isIndexSelected && (
           <Button
             startIcon={<InfoIcon />}
-            onClick={() => props.onShowEvidence(props.params.id)}
+            onClick={() => {
+              console.log("Info button clicked, params.id:", props.params.id);
+              props.onShowEvidence(props.params.id);
+            }}
+            size="small"
           />
         )}
       </Box>
@@ -83,27 +90,45 @@ const DataTable = (props) => {
   const [resultColumnAdded, setResultColumnAdded] = useState(false);
 
   useEffect(() => {
-    const rows = props.dirtyDataContent.map((data, i) => ({ id: i, ...data }));
+    const rows = props.dirtyDataContent.map((data, i) => {
+      // Create a new object without the 'id' field from CSV if it exists
+      const { id: dataId, ...dataWithoutId } = data;
+      return { id: i, ...dataWithoutId };
+    });
     const idColumn = {
       field: "id",
       headerName: "ID",
       headerClassName: "normal--header",
     };
 
-    const updatedColumns = props.columns.map((header) => {
+    console.log("=== DataTable useEffect ===");
+    console.log("props.dirtyDataContent.length:", props.dirtyDataContent.length);
+    console.log("rows created:", rows);
+    console.log("rows.length:", rows.length);
+    console.log("First row id:", rows[0]?.id);
+    console.log("Last row id:", rows[rows.length - 1]?.id);
+
+    const updatedColumns = props.columns
+      .filter(header => header !== "id") // Filter out the CSV's original id column
+      .map((header) => {
       return {
         field: header,
         headerName: header,
         headerClassName: getHeaderClass(header, props),
         width: getColumnWidth(header),
-        editable: true,
+        editable: true, // All columns are editable
         ...(header === props.resultColumn && {
           cellClassName: (params) => {
             const idx = params.id;
-            const dirtyVal = rows[idx][props.dirtyColumn].toLowerCase().trim();
-            const resultVal = params.value?.toLowerCase().trim();
+            // Add null checks to prevent "Cannot read properties of undefined" errors
+            if (!rows[idx] || !props.dirtyColumn) return "";
+            const dirtyCell = rows[idx][props.dirtyColumn];
+            if (dirtyCell === undefined || dirtyCell === null) return "";
+            const dirtyVal = String(dirtyCell).toLowerCase().trim();
+            const resultVal = params.value ? String(params.value).toLowerCase().trim() : "";
             if (!resultVal) return "empty--cell";
             if (resultVal !== dirtyVal) return "result--cell";
+            return "";
           },
           renderCell: (params) => (
             <ResultCell
@@ -158,13 +183,20 @@ const DataTable = (props) => {
     const minWidth = 150;
     const factor = 10;
     const additionalWidth = header === props.resultColumn ? 66 : 0;
+    
+    // Add safety check for dirtyDataContent
+    if (!props.dirtyDataContent || props.dirtyDataContent.length === 0) {
+      return minWidth + additionalWidth;
+    }
+    
     return (
       Math.max(
         minWidth,
         header.length * factor,
-        ...props.dirtyDataContent.map((row) =>
-          row[header] ? row[header].toString().length * factor : 0
-        )
+        ...props.dirtyDataContent.map((row) => {
+          if (!row || !row[header]) return 0;
+          return String(row[header]).length * factor;
+        })
       ) + additionalWidth
     );
   };
@@ -182,12 +214,30 @@ const DataTable = (props) => {
     return "normal--header";
   };
 
+  const handleProcessRowUpdate = (newRow) => {
+    // Update the row in local state
+    const updatedRows = table.rows.map((row) =>
+      row.id === newRow.id ? newRow : row
+    );
+    setTable({ ...table, rows: updatedRows });
+    
+    // Notify parent component via onEditCell if it exists
+    // Parent can handle saving to result.data if needed
+    const updatedData = { ...newRow };
+    delete updatedData.id; // Remove the id since it's the array index
+    
+    console.log("Row updated at index", newRow.id, ":", updatedData);
+    
+    return newRow;
+  };
+
   return (
     <DataGrid
       apiRef={apiRef}
       rows={table.rows}
       columns={table.columns}
       onColumnWidthChange={onColumnWidthChange}
+      processRowUpdate={handleProcessRowUpdate}
       isRowSelectable={() => false}
       slots={{ toolbar: () => CustomToolbar(props) }}
       sx={{

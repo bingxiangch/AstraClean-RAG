@@ -3,7 +3,7 @@ from typing import List, Dict, Any
 import pandas as pd
 import io
 from core.domain_kb.construct import stratified_sample, generate_rules_with_llm, save_rules, load_rules
-from core.llm import call_llm  # 假设已有统一的LLM调用接口
+from core.llm import call_llm  # Assume a unified LLM calling interface is available
 import os
 
 router = APIRouter()
@@ -16,7 +16,7 @@ def sample_data(
     stratify_cols: str = Form(None)
 ):
     """
-    上传干净数据文件，返回分层采样结果（前端可预览）。
+    Upload a clean data file and return stratified sampling results (frontend preview).
     """
     try:
         df = pd.read_csv(file.file)
@@ -28,37 +28,47 @@ def sample_data(
 
 @router.post("/domain_kb/generate_rules")
 def generate_rules(
-    sample: List[Dict[str, Any]]
+    file: UploadFile = File(...)
 ):
     """
-    输入采样数据，调用LLM生成规则。
+    Input CSV file and directly generate rules.
     """
     try:
-        df = pd.DataFrame(sample)
-        rules = generate_rules_with_llm(df, call_llm)
+        df = pd.read_csv(file.file)
+        # Extract table name from filename (remove .csv extension)
+        table_name = file.filename.replace('.csv', '').replace('.CSV', '')
+        rules = generate_rules_with_llm(df, call_llm, table=table_name)
         return {"rules": rules}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
 @router.post("/domain_kb/save_rules")
 def save_rules_api(
-    rules: Dict[str, Any],
+    rules: str = Form(...),
     dataset: str = Form(...)
 ):
     """
-    保存审核通过的规则。
+    Save reviewed rules in JSONL format.
     """
     try:
+        import json
+        # Parse rules from JSON string
+        rules_list = json.loads(rules)
+        if not isinstance(rules_list, list):
+            raise ValueError("Rules must be an array")
+        
         path = f"testdata/knowledge_base/domain_kb_{dataset}.jsonl"
-        save_rules(rules, path)
-        return {"status": "ok", "path": path}
+        save_rules(rules_list, path)
+        return {"status": "ok", "path": path, "count": len(rules_list)}
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=400, detail="Invalid JSON format for rules")
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
 @router.get("/domain_kb/get_rules")
 def get_rules(dataset: str):
     """
-    获取已保存的规则。
+    Get saved rules.
     """
     try:
         path = f"testdata/knowledge_base/domain_kb_{dataset}.jsonl"

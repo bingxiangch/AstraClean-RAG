@@ -1,0 +1,5 @@
+{"id": "1", "table": "tax", "column": "zip", "dirty_value": "1907", "clean_value": "01907", "evidence": "leading_zero_standardization", "timestamp": "2025-09-16T08:45:49Z"}
+{"id": "2", "table": "tax", "column": "zip", "dirty_value": "8203", "clean_value": "08203", "evidence": "leading_zero_standardization", "timestamp": "2025-09-16T08:45:49Z"}
+{"id": "3", "table": "tax", "column": "rate", "dirty_value": "1.9519792", "clean_value": "2.0", "evidence": "rounding_normalization", "timestamp": "2025-09-16T08:45:49Z"}
+{"id": "4", "table": "tax", "column": "rate", "dirty_value": "5.9232907", "clean_value": "5.9", "evidence": "precision_reduction", "timestamp": "2025-09-16T08:45:49Z"}
+{"id": "5", "table": "tax", "column": "rate", "dirty_value": "7.0000", "clean_value": "7", "evidence": "trailing_zero_removal", "timestamp": "2025-09-16T08:45:49Z"}

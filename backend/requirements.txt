@@ -11,4 +11,3 @@ python-multipart
 openai
 ollama
 anthropic
-rerankers

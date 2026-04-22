@@ -5,17 +5,17 @@
 {"id": "5", "table": "beer", "column": "ounces", "dirty_value": "0.355 L", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "6", "table": "beer", "column": "ounces", "dirty_value": "12.0 OZ.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "7", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
-{"id": "8", "table": "beer", "column": "abv", "dirty_value": "0.05%", "clean_value": "0.045", "timestamp": "2025-09-16T08:45:49Z"}
+{"id": "8", "table": "beer", "column": "abv", "dirty_value": "0.05%", "clean_value": "0.05", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "9", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "10", "table": "beer", "column": "ounces", "dirty_value": "12.0 ounce", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "11", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "12", "table": "beer", "column": "ounces", "dirty_value": "12.0 ounce", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "13", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "14", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
-{"id": "15", "table": "beer", "column": "abv", "dirty_value": "0.07%", "clean_value": "0.069", "timestamp": "2025-09-16T08:45:49Z"}
+{"id": "15", "table": "beer", "column": "abv", "dirty_value": "0.07%", "clean_value": "0.07", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "16", "table": "beer", "column": "ounces", "dirty_value": "12.0 OZ.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "17", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
-{"id": "18", "table": "beer", "column": "abv", "dirty_value": "0.06%", "clean_value": "0.061", "timestamp": "2025-09-16T08:45:49Z"}
+{"id": "18", "table": "beer", "column": "abv", "dirty_value": "0.06%", "clean_value": "0.06", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "19", "table": "beer", "column": "ounces", "dirty_value": "12.0 ounce", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "20", "table": "beer", "column": "ounces", "dirty_value": "12.0 ounce", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "21", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
@@ -28,7 +28,7 @@
 {"id": "28", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "29", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "30", "table": "beer", "column": "ounces", "dirty_value": "12.0 ounce", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
-{"id": "31", "table": "beer", "column": "abv", "dirty_value": "0.05%", "clean_value": "0.049", "timestamp": "2025-09-16T08:45:49Z"}
+{"id": "31", "table": "beer", "column": "abv", "dirty_value": "0.05%", "clean_value": "0.05", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "32", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "33", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}
 {"id": "34", "table": "beer", "column": "ounces", "dirty_value": "12.0 oz.", "clean_value": "12.0", "timestamp": "2025-09-16T08:45:49Z"}

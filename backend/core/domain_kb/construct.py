@@ -31,32 +31,67 @@ def stratified_sample(df: pd.DataFrame, frac: float = 0.1, min_rows: int = 100, 
         sampled = pd.concat([sampled, df.drop(sampled.index).sample(n=min_rows-len(sampled), random_state=42)])
     return sampled.head(n)
 
-# Step 2: LLM-driven Rule Generation (stub)
-def generate_rules_with_llm(sample: pd.DataFrame, llm_func) -> Dict[str, Any]:
+# Step 2: LLM-driven Rule Generation
+def generate_rules_with_llm(sample: pd.DataFrame, llm_func, table: str = "data") -> List[Dict[str, Any]]:
     """
     Use LLM to generate rules for each column.
     Args:
         sample: Sampled dataframe.
         llm_func: Function to call LLM, should accept prompt and return result.
+        table: Table name for the rules.
     Returns:
-        Dict of column: rules.
+        List of rule dicts with format: {"id", "table", "column", "domain_rule"}
     """
-    rules = {}
+    rules = []
+    rule_id = 1
     for col in sample.columns:
-        prompt = f"Analyze the following values for column '{col}' and generate rules for format, units, valid ranges, canonical forms, and domain constraints. Values: {sample[col].dropna().tolist()}"
-        rules[col] = llm_func(prompt)
+        prompt = f"Analyze the following values for column '{col}' and generate a concise domain rule for format, units, valid ranges, canonical forms, and domain constraints. Values: {sample[col].dropna().head(10).tolist()}"
+        try:
+            domain_rule = llm_func(prompt)
+        except:
+            domain_rule = f"Column '{col}' requires valid data in appropriate format"
+        
+        rules.append({
+            "id": str(rule_id),
+            "table": table,
+            "column": col,
+            "domain_rule": domain_rule
+        })
+        rule_id += 1
     return rules
 
 # Step 3: Human Review is handled via API/frontend, not in backend logic
 
-# Utility: Save rules to file
-def save_rules(rules: Dict[str, Any], path: str):
+# Utility: Save rules to JSONL file
+def save_rules(rules: List[Dict[str, Any]], path: str):
+    """
+    Save rules as JSONL format (each line is a JSON object).
+    Args:
+        rules: List of rule dictionaries
+        path: File path to save (should end with .jsonl)
+    """
     import json
+    # Create directory if not exists
+    import os
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    
     with open(path, 'w') as f:
-        json.dump(rules, f, indent=2, ensure_ascii=False)
+        for rule in rules:
+            f.write(json.dumps(rule, ensure_ascii=False) + '\n')
 
-# Utility: Load rules from file
-def load_rules(path: str) -> Dict[str, Any]:
+# Utility: Load rules from JSONL file
+def load_rules(path: str) -> List[Dict[str, Any]]:
+    """
+    Load rules from JSONL format file.
+    Args:
+        path: File path to load from (should end with .jsonl)
+    Returns:
+        List of rule dictionaries
+    """
     import json
+    rules = []
     with open(path, 'r') as f:
-        return json.load(f)
+        for line in f:
+            if line.strip():
+                rules.append(json.loads(line))
+    return rules

@@ -40,11 +40,10 @@ const RepairModule = (props) => {
     reasonerName: "",
     searchIndexName: "",
     indexState: { Semantic: true, Syntactic: false },
-    rerankState: { ColBERT: false, "Cross Encoder": false },
   });
 
   const [result, setResult] = useState({
-    data: [],
+    data: {}, // Changed from [] to {}
     marked: new Set(),
     isLoading: false,
   });
@@ -53,6 +52,11 @@ const RepairModule = (props) => {
     sourceTuple: null,
     sourceTableName: null,
     sourceRowNumber: null,
+    dirtyValue: null,
+    cleanValue: null,
+    conflicSummary: null,
+    hasConflict: false,
+    conflictData: null,
   });
 
   // Effects
@@ -107,11 +111,16 @@ const RepairModule = (props) => {
       repairString: "*",
       pivotColumns: new Set(),
     });
-    setResult({ data: [], marked: new Set(), isLoading: false });
+    setResult({ data: {}, marked: new Set(), isLoading: false });
     setEvidence({
       sourceTuple: null,
       sourceTableName: null,
       sourceRowNumber: null,
+      dirtyValue: null,
+      cleanValue: null,
+      conflicSummary: null,
+      hasConflict: false,
+      conflictData: null,
     });
 
     const file = files[0];
@@ -185,16 +194,6 @@ const RepairModule = (props) => {
     });
   };
 
-  const onChangeRerankType = (value) => {
-    const newVal = !configuration.rerankState[value];
-    let rerankState = { ColBERT: false, "Cross Encoder": false };
-    rerankState[value] = newVal;
-    setConfiguration({
-      ...configuration,
-      rerankState: rerankState,
-    });
-  };
-
 
 
 
@@ -222,7 +221,6 @@ const onRunJob = async () => {
   }
 
   let indexType = null;
-  let rerankerType = null;
   if (selectedIndices.length > 0) {
     if (
       configuration.indexState["Syntactic"] &&
@@ -234,12 +232,6 @@ const onRunJob = async () => {
     } else if (configuration.indexState["Syntactic"]) {
       indexType = "syntactic";
     }
-
-    if (configuration.rerankState["ColBERT"]) {
-      rerankerType = "ColBERT";
-    } else if (configuration.rerankState["Cross Encoder"]) {
-      rerankerType = "Cross Encoder";
-    }
   }
 
   const requestObj = {
@@ -249,14 +241,18 @@ const onRunJob = async () => {
     pivot_names: Array.from(configuration.pivotColumns),
     pivot_data: pivotColumData,
     reasoner_name: configuration.reasonerName,
-    index_name: selectedIndices, // <<< send full array
+    index_name: selectedIndices,
     index_type: indexType,
-    reranker_type: rerankerType,
   };
 
   try {
     const response = await getRepairs(requestObj);
+    console.log("=== REPAIR RESPONSE ===");
+    console.log("Full response:", response);
+    console.log("Response status:", response?.status);
     const repairs = response?.results ?? [];
+    console.log("Repairs array:", repairs);
+    console.log("Repairs length:", repairs.length);
 
     if (!Array.isArray(repairs) || repairs.length === 0) {
       alert("No repair results returned from the server");
@@ -266,23 +262,35 @@ const onRunJob = async () => {
 
     let marked = new Set();
     let content = [...dirtyData.content];
-    let data = [];
+    let data = {}; // Change to object
     let j = 0;
+
+    console.log("=== BUILD DATA ARRAY LOOP ===");
+    console.log("dirtyData.rows:", dirtyData.rows);
+    console.log("dirtyData.rows.size:", dirtyData.rows.size);
+    console.log("dirtyData.content.length:", dirtyData.content.length);
+    console.log("repairs.length:", repairs.length);
 
     for (let i = 0; i < dirtyData.content.length; i++) {
       let rowObj = content[i];
       if (dirtyData.rows.has(i)) {
         const repairValue = repairs[j]?.value ?? null;
         rowObj[resultColumn] = repairValue;
-        data.push(repairs[j] ?? null);
+        data[i] = repairs[j] ?? null; // Use object with row index as key
         if (repairValue !== null) marked.add(i);
         j++;
       } else {
         rowObj[resultColumn] = null;
-        data.push(null);
+        data[i] = null; // Use object with row index as key
       }
       content[i] = rowObj;
     }
+
+    console.log("=== FINAL DATA ARRAY ===");
+    console.log("data object:", data);
+    console.log("data keys:", Object.keys(data).length);
+    console.log("marked:", marked);
+    console.log("Number of rows with repair data:", Array.from(marked).length);
 
     setResult({
       ...result,
@@ -295,6 +303,11 @@ const onRunJob = async () => {
       sourceTuple: null,
       sourceTableName: null,
       sourceRowNumber: null,
+      dirtyValue: null,
+      cleanValue: null,
+      conflicSummary: null,
+      hasConflict: false,
+      conflictData: null,
     });
 
     setDirtyData({ ...dirtyData, content: content });
@@ -315,23 +328,88 @@ const onRunJob = async () => {
   };
 
   const onShowEvidence = (index) => {
+    console.log("=== onShowEvidence called ===");
+    console.log("index:", index);
+    console.log("result.data:", result.data);
     const dataObj = result.data[index];
+    console.log("dataObj at index", index, ":", dataObj);
+    
+    // Handle case where there's no repair result for this row
+    if (!dataObj) {
+      console.warn("No repair result available for row index:", index);
+      setEvidence({
+        sourceTuple: null,
+        sourceTableName: null,
+        sourceRowNumber: null,
+        dirtyValue: null,
+        cleanValue: null,
+        conflicSummary: null,
+        hasConflict: false,
+        conflictData: null,
+      });
+      return;
+    }
+    
+    console.log("dataObj.citation:", dataObj.citation);
+    // Handle case where there's no citation data
+    if (!dataObj.citation) {
+      console.warn("No citation data available for row index:", index);
+      setEvidence({
+        sourceTuple: null,
+        sourceTableName: dataObj.table_name,
+        sourceRowNumber: dataObj.row_number,
+        dirtyValue: null,
+        cleanValue: dataObj.value,
+        conflicSummary: null,
+        hasConflict: false,
+        conflictData: null,
+      });
+      return;
+    }
+    
     const sourceTuple = dataObj.citation;
-    const conflicSummary = dataObj.conflict_summary;
     const sourceTableName = dataObj.table_name;
     const sourceRowNumber = dataObj.row_number;
+    const cleanValue = dataObj.value;
+    
+    // Get conflict info from repair result - new LLM-based mediation format
+    let conflicSummary = null;
+    let hasConflict = false;
+    let conflictData = null;
+    if (dataObj.conflict) {
+      hasConflict = dataObj.conflict.has_conflict;
+      conflicSummary = dataObj.conflict.summary;
+      // Extract the full conflict data with LLM mediation results
+      conflictData = {
+        mode: dataObj.conflict.mode || "aligned",
+        decision: dataObj.conflict.summary,
+        reasoning: dataObj.conflict.reasoning || "",
+        sources: dataObj.conflict.sources || {},
+        severity: dataObj.conflict.severity || "none",
+        confidence: dataObj.conflict.confidence || 0.5
+      };
+    }
+    
+    // Get dirty value from the content
+    const dirtyValue = dirtyData.content[index]?.[configuration.dirtyColumn] ?? null;
+    
+    console.log("Setting evidence with sourceTuple:", sourceTuple, "conflict:", dataObj.conflict);
     setEvidence({
       sourceTuple: sourceTuple,
       sourceTableName: sourceTableName,
       sourceRowNumber: sourceRowNumber,
+      dirtyValue: dirtyValue,
+      cleanValue: cleanValue,
       conflicSummary: conflicSummary,
+      hasConflict: hasConflict,
+      conflictData: conflictData,
     });
   };
 
 
 
   const onApplyRepairs = async () => {  // <-- add async here
-    if (result.data.length === 0) return;
+    if (Object.keys(result.data).length === 0) return;
 
     const content = [...dirtyData.content];
     const repairedRows = [];
@@ -354,8 +432,8 @@ const onRunJob = async () => {
       });
     }
 
-    setResult({ ...result, data: [], marked: new Set() });
-    setEvidence({ sourceTuple: null, sourceTableName: null, sourceRowNumber: null, conflicSummary: null });
+    setResult({ ...result, data: {}, marked: new Set() });
+    setEvidence({ sourceTuple: null, sourceTableName: null, sourceRowNumber: null, dirtyValue: null, cleanValue: null, conflicSummary: null, hasConflict: false });
     setDirtyData({ ...dirtyData, content });
     if (repairedRows.length > 0) {
       try {
@@ -378,12 +456,16 @@ const onRunJob = async () => {
 
 
   const onCancelRepairs = () => {
-    setResult({ ...result, data: [], marked: new Set() });
+    setResult({ ...result, data: {}, marked: new Set() });
     setEvidence({
       sourceTuple: null,
       sourceTableName: null,
       sourceRowNumber: null,
+      dirtyValue: null,
+      cleanValue: null,
       conflicSummary: null,
+      hasConflict: false,
+      conflictData: null,
     });
   };
 
@@ -427,8 +509,6 @@ const onRunJob = async () => {
           onSelectSearchIndexName={onSelectSearchIndexName}
           indexState={configuration.indexState}
           onChangeIndexType={onChangeIndexType}
-          rerankState={configuration.rerankState}
-          onChangeRerankType={onChangeRerankType}
           isLoading={result.isLoading}
           onRunJob={onRunJob}
         />
@@ -457,7 +537,7 @@ const onRunJob = async () => {
               <DataTable
                 dirtyDataContent={dirtyData.content}
                 columns={
-                  result.data.length === 0
+                  Object.keys(result.data).length === 0
                     ? dirtyData.columns
                     : [...dirtyData.columns, resultColumn]
                 }
@@ -475,14 +555,16 @@ const onRunJob = async () => {
             </Box>
 
             <Box id="rightBottom" height="20%">
-              {evidence.sourceTuple !== null && (
-                <Evidence
-                  sourceTuple={evidence.sourceTuple}
-                  sourceTableName={evidence.sourceTableName}
-                  sourceRowNumber={evidence.sourceRowNumber}
-                  conflicSummary={evidence.conflicSummary}
-                />
-              )}
+              <Evidence
+                sourceTuple={evidence.sourceTuple}
+                sourceTableName={evidence.sourceTableName}
+                sourceRowNumber={evidence.sourceRowNumber}
+                dirtyValue={evidence.dirtyValue}
+                cleanValue={evidence.cleanValue}
+                conflicSummary={evidence.conflicSummary}
+                hasConflict={evidence.hasConflict}
+                conflictData={evidence.conflictData}
+              />
             </Box>
           </Box>
         )}

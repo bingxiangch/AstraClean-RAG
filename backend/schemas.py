@@ -26,4 +26,3 @@ class RepairRequest(BaseModel):
     reasoner_name: str
     index_name: list[str]
     index_type: Optional[str] = None
-    reranker_type: Optional[str] = None

@@ -10,11 +10,11 @@ router = APIRouter()
 def generate_column_rules(
     file: UploadFile = File(...),
     table: str = Form(...),
-    columns: str = Form(...),  # 逗号分隔的列名
+    columns: str = Form(...),  # Comma-separated column names
     n_rows: int = Form(100)
 ):
     """
-    上传clean csv和选定列，采样100行，自动生成每列的domain rule，返回jsonl格式。
+    Upload a clean CSV file and selected columns, sample 100 rows, automatically generate domain rules for each column, return in JSONL format.
     """
     try:
         df = pd.read_csv(file.file)
@@ -29,7 +29,7 @@ def generate_column_rules(
                 f"The rule should describe value format, units, valid ranges, canonical representation, and any domain-specific constraints. "
                 f"Do NOT output a value or example, only output a rule sentence in English for data cleaning. Values: {values}"
             )
-              # 调试用
+              # For debugging
             rule = call_llm(prompt)
             rules.append({
                 "id": str(idx),
@@ -37,7 +37,7 @@ def generate_column_rules(
                 "column": col,
                 "domain_rule": rule
             })
-        # 返回jsonl字符串
+        # Return JSONL string
         jsonl = "\n".join([json.dumps(r, ensure_ascii=False) for r in rules])
         return {"jsonl": jsonl, "rules": rules}
     except Exception as e:

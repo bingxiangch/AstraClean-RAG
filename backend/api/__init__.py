@@ -1,1 +1,1 @@
-# domain_kb API模块包初始化
+# API module package initialization

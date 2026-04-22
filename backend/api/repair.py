@@ -16,7 +16,6 @@ async def repair_endpoint(request: RepairRequest):
         request.reasoner_name,
         request.index_name,
         request.index_type,
-        request.reranker_type,
     )
     if response["status"] == "fail":
         raise HTTPException(status_code=400, detail=response["message"])

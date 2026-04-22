@@ -1,13 +1,13 @@
 def call_llm(prompt: str) -> str:
     """
-    通用LLM调用接口，输入prompt，返回模型输出（同步版本，适合规则生成等场景）。
+    Generic LLM calling interface, input prompt, return model output (synchronous version, suitable for rule generation scenarios).
     """
-    # 这里假设有默认模型
+    # Assume there is a default model
     model_name = list(initialized_models.keys())[0]
     model = initialized_models[model_name]
     wrapped_text = model.prompt_wrapper(prompt)
     response = model.generate(wrapped_text, None)
-    # 假设response为dict，取value字段
+    # Assume response is a dict, get the value field
     if isinstance(response, dict) and 'value' in response:
         return response['value']
     return str(response)
