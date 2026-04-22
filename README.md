@@ -44,14 +44,14 @@ Given a tabular dataset and lightweight cleaning instructions, the system identi
 Intelligent mediation of multi-source disagreements through LLM analysis:
 
 $$\begin{array}{ll}
-\text{Procedure: Mediate}(results\_dkb, results\_cl) \\
-\quad context\_dkb := \text{format\_evidence}(results\_dkb) \\
-\quad context\_cl := \text{format\_evidence}(results\_cl) \\
-\quad output := \text{LLM}(mediation\_instruction, \{context\_dkb, context\_cl\}) \\
-\quad \text{if } output.mode = aligned \\
-\quad \quad \text{return } \text{format\_suggestion}(output) \\
+\text{Procedure: Mediate}(\text{results\_dkb}, \text{results\_cl}) \\
+\quad \text{context\_dkb} := \text{format\_evidence}(\text{results\_dkb}) \\
+\quad \text{context\_cl} := \text{format\_evidence}(\text{results\_cl}) \\
+\quad \text{output} := \text{LLM}(\text{mediation\_instruction}, \{\text{context\_dkb}, \text{context\_cl}\}) \\
+\quad \text{if } \text{output.mode} = \text{aligned} \\
+\quad \quad \text{return } \text{format\_suggestion}(\text{output}) \\
 \quad \text{else} \\
-\quad \quad \text{return } \text{format\_conflict\_summary}(output) \\
+\quad \quad \text{return } \text{format\_conflict\_summary}(\text{output}) \\
 \end{array}$$
 
 
@@ -132,6 +132,7 @@ OPENAI_MODEL=gpt-4
 - Dual-source retrieval from domain KB and historical logs  
 - Basic LLM-powered suggestion generation with confidence scores  
 - Human-in-the-loop approval workflow  
+- See [v1.0 release](https://github.com/bingxiangch/AstraClean-RAG/tree/v1.0)
 ---
 
 ## Citation & Acknowledgment
