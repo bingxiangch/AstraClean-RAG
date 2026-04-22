@@ -39,21 +39,15 @@ Given a tabular dataset and lightweight cleaning instructions, the system identi
 
 ### What's New in v2 (from v1)
 
+
 #### 1. **LLM-Based Conflict Mediation**
 
-Intelligent mediation of multi-source disagreements through LLM analysis:
+The system retrieves evidence from both the domain knowledge base (DKB) and the history log (CL), and formats them into structured contexts.  
+These contexts are then provided to the LLM together with a mediation instruction.
 
-$$\begin{array}{ll}
-\text{Procedure: Mediate}(\text{results\_dkb}, \text{results\_cl}) \\
-\quad \text{context\_dkb} := \text{format\_evidence}(\text{results\_dkb}) \\
-\quad \text{context\_cl} := \text{format\_evidence}(\text{results\_cl}) \\
-\quad \text{output} := \text{LLM}(\text{mediation\_instruction}, \{\text{context\_dkb}, \text{context\_cl}\}) \\
-\quad \text{if } \text{output.mode} = \text{aligned} \\
-\quad \quad \text{return } \text{format\_suggestion}(\text{output}) \\
-\quad \text{else} \\
-\quad \quad \text{return } \text{format\_conflict\_summary}(\text{output}) \\
-\end{array}$$
-
+The LLM analyzes whether the two sources support the same repair:
+- If they are aligned, it returns a unified repair suggestion.
+- If they disagree, it generates a structured conflict summary for human review.
 
 #### 2. **Automated Domain KB Construction**
 
