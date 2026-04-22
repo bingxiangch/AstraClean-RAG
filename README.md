@@ -1,48 +1,66 @@
 # AstraClean-RAG
 
-**A Retrieval-Augmented Generation (RAG) framework for intelligent tabular data cleaning.**  
+**A Retrieval-Augmented Generation (RAG) framework for intelligent tabular data cleaning with LLM-powered conflict mediation.**  
 AstraClean-RAG combines large language models with dual-source retrieval to make data cleaning more reliable, explainable, and reusable.
 
 - **Dual Sources of Evidence:**  
-  1. **Historical correction logs** capturing verified past fixes.  
-  2. **Domain knowledge bases** encoding valid rules, mappings, and formats.  
+  1. **Historical correction logs** capturing verified past fixes and corrections.  
+  2. **Domain knowledge bases** encoding valid rules, mappings, formats, and constraints.  
 
-- **Key Features:**  
-  ✓ Retrieval-grounded cleaning for consistency and transparency  
+- **Core Capabilities:**  
+  ✓ Dual-source retrieval-augmented cleaning for consistency and transparency  
+  ✓ LLM-based conflict mediation when sources disagree  
+  ✓ Lightweight domain knowledge base (KB) construction from clean data  
   ✓ Human-in-the-loop verification and feedback logging  
-  ✓ Continuous improvement without retraining  
-  ✓ Conflict detection with neutral summaries to support human review  
+  ✓ Continuous improvement through accumulated corrections  
 
 ---
 
 ### System Overview
 
+
+
+![System Architecture v2](system_image/system_architecture_v2.png)  
+*Dual-source retrieval, KB indexing, and LLM-based conflict mediation workflow (v2).*
+![Demo Interface v2](system_image/Demo_v2.png)  
+*Interactive web UI for data upload, configuration, cleaning, and result review (v2).*
+
+![KB & Log Indexing v2](system_image/kb_log_index_v2.png)  
+*Qdrant-based indexing strategy for domain KB and historical correction logs.*
+
 ![High-Level Pipeline](system_image/high_level.drawio.png)  
 *High-level integration of AstraClean-RAG in the data engineering pipeline.*
-
-![System Architecture](system_image/architecture.png)  
-*Dual-source retrieval and feedback workflow.*
-
-![Demo Interface](system_image/Demo_latest.png)  
-*Interactive web demo for uploading data, cleaning, and validating results.*
-
 ---
 
-### Summary
+### System Architecture (v2)
 
-AstraClean-RAG is designed for collaborative, context-aware tabular data cleaning. It uses retrieval-augmented generation to incorporate **both domain rules and historical human corrections** into LLM suggestions.  
-The system highlights conflicts in retrieved evidence and provides concise summaries to help users make informed decisions, rather than automatically resolving disagreements.  
-Exploratory evaluation shows that **dual-source retrieval improves consistency, repeatability, and correctness**, supporting lightweight human-in-the-loop workflows while gradually accumulating reusable knowledge.
+Given a tabular dataset and lightweight cleaning instructions, the system identifies anomalous cells, retrieves evidence from both the Domain Knowledge Base (DKB) and the Correction Log (CL), and sends the retrieved evidence to an LLM-based mediation layer. The output is then presented to a human reviewer as either a suggested repair or a structured summary of conflicting evidence. Once the reviewer makes a final decision, the validated correction is appended to the CL for future reuse.  
+---
 
-## Repository Structure
+### What's New in v2 (from v1)
 
-```
-.
-├─ backend/     # FastAPI service: retrieval, cleaning pipeline, Qdrant integration
-├─ frontend/    # React web app: upload, configure, run, review results
-├─ testdata/    # Example CSVs and small KB/log JSONL samples
-└─ system_image/      # Diagrams (e.g., high_level.drawio.png, dataclenaing.png)
-```
+#### 1. **LLM-Based Conflict Mediation**
+
+Intelligent mediation of multi-source disagreements through LLM analysis:
+
+$$\begin{array}{ll}
+\text{Procedure: Mediate}(results\_dkb, results\_cl) \\
+\quad context\_dkb := \text{format\_evidence}(results\_dkb) \\
+\quad context\_cl := \text{format\_evidence}(results\_cl) \\
+\quad output := \text{LLM}(mediation\_instruction, \{context\_dkb, context\_cl\}) \\
+\quad \text{if } output.mode = aligned \\
+\quad \quad \text{return } \text{format\_suggestion}(output) \\
+\quad \text{else} \\
+\quad \quad \text{return } \text{format\_conflict\_summary}(output) \\
+\end{array}$$
+
+
+#### 2. **Automated Domain KB Construction**
+
+Generate domain-specific rules directly from clean data samples without manual rule writing. Supports column-level rule generation with human review workflow.
+
+
+
 
 ---
 
@@ -83,18 +101,40 @@ npm start
 ```
 The application hosted locally will run on port **3000**:  
 [http://localhost:3000/](http://localhost:3000/)
-## Usage
-
-1. Upload a CSV file.  
-2. Select target column(s) to clean.  
-3. (Optional) Add short instructions, e.g., “State codes must be two uppercase letters.”  
-4. Choose sources: **Domain KB**, **Historical Log**, or both.  
-5. Click **Clean**, review each fix with its evidence, and approve, edit, or reject.  
-6. Export the cleaned data. Approved fixes are stored in the log for reuse.
 
 ---
 
-## Acknowledgment
 
-Parts of this project are adapted from RetClean.
+
+## Key Configuration
+
+### Environment Variables (`.env`)
+
+```bash
+# Qdrant Vector DB
+QDRANT_URL=http://localhost:6333
+QDRANT_API_KEY=xxx
+
+# LLM Providers
+OPENAI_API_KEY=sk-xxx
+OPENAI_MODEL=gpt-4
+
+```
+---
+
+## Version History
+
+### v2.0
+-  **LLM-based Conflict Mediation:** Intelligent analysis of disagreements between dual sources with reasoning 
+-  **Domain KB Construction:** Generate domain rules directly from clean data samples 
+
+### v1.0
+- Dual-source retrieval from domain KB and historical logs  
+- Basic LLM-powered suggestion generation with confidence scores  
+- Human-in-the-loop approval workflow  
+---
+
+## Citation & Acknowledgment
+
+This project builds upon and significantly extends **RetClean**, a retrieval-augmented data cleaning framework.
 
