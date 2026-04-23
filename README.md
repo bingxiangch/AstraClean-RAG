@@ -16,6 +16,21 @@ AstraClean-RAG combines large language models with dual-source retrieval to make
 
 ---
 
+---
+
+## Version History
+
+### v2.0
+-  **LLM-based Conflict Mediation:** Intelligent analysis of disagreements between dual sources with reasoning 
+-  **Domain KB Construction:** Generate domain rules directly from clean data samples 
+-  **More evaluation dataset:** Added more datasets for evaluation
+### v1.0
+- Dual-source retrieval from domain KB and historical logs  
+- Basic LLM-powered suggestion generation with confidence scores  
+- Human-in-the-loop approval workflow  
+- See [v1.0 release](https://github.com/bingxiangch/AstraClean-RAG/tree/v1.0)
+---
+
 ### System Overview
 
 
@@ -114,22 +129,10 @@ OPENAI_API_KEY=sk-xxx
 OPENAI_MODEL=gpt-4
 
 ```
----
 
-## Version History
 
-### v2.0
--  **LLM-based Conflict Mediation:** Intelligent analysis of disagreements between dual sources with reasoning 
--  **Domain KB Construction:** Generate domain rules directly from clean data samples 
+## Acknowledgment
 
-### v1.0
-- Dual-source retrieval from domain KB and historical logs  
-- Basic LLM-powered suggestion generation with confidence scores  
-- Human-in-the-loop approval workflow  
-- See [v1.0 release](https://github.com/bingxiangch/AstraClean-RAG/tree/v1.0)
----
+Parts of this project are adapted from RetClean.
 
-## Citation & Acknowledgment
-
-This project builds upon and significantly extends **RetClean**, a retrieval-augmented data cleaning framework.
 
